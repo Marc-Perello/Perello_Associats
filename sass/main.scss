@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+@import 'reset';
+@import 'bourbon';
+@import 'grid-settings';
+@import 'neat';
+@import 'mixins';
+
+/* ==========================================================================
+   Marc's Custom Styles
+========================================================================== */ 
+
+
+html {
+  font-size:100%;
+}
+
+body{
+ font-size:10px;
+}
+
+
+
+
+
+/* ==========================================================================
+ Clearfix
+========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+ Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}

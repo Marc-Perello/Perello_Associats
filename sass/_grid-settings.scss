@@ -1,0 +1,18 @@
+// _grid-settings.scss
+
+@import "neat/neat-helpers";
+
+// Change the grid settings
+
+// Si vols que es vegi la grid
+$visual-grid: false;
+
+// parámateres de la grid
+$max-width: 1280px;
+$grid-columns: 12;
+$gutter: 0.08em;
+
+// com vols que es motri el preview de la grid
+$visual-grid-index: front;
+$visual-grid-color: #000;
+$visual-grid-opacity: .1;
