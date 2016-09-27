@@ -2,7 +2,7 @@
 // mixins
 
 //Max Width
-$max-width: 1280px;
+$max-width: 1440px;
 
 // Breakpoints
 $bp-medium: 48em; // 768px
@@ -50,10 +50,11 @@ $xxl: min-width $bp-xxlarge;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@mixin opensans($weight, $size) {
+@mixin opensans($weight, $size, $color:#0a0a0a) {
  font-family: 'Open Sans', Helvetica, sans-serif; 
  font-weight: $weight; 
  font-size: $size; 
+ color:$color;
  @include smoothy;
 }
 

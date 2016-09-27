@@ -194,13 +194,221 @@ html {
   box-sizing: inherit; }
 
 /* ==========================================================================
-   Marc's Custom Styles
+   Perello i Associats Custom Styles
 ========================================================================== */
 html {
   font-size: 100%; }
 
+h1 {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-size: 10px; }
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.full-width {
+  width: 100%; }
+
+/* ==========================================================================
+   Menu Principal
+   ========================================================================== */
+.top-bar {
+  margin: 0; }
+
+.logo {
+  margin: 0;
+  padding: 0; }
+
+.logo img {
+  margin-left: 20px;
+  float: left; }
+
+#lletres-logo {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 67px;
+  margin: 0 auto 0 5px;
+  padding: 0;
+  float: left; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  float: right; }
+
+nav ul li {
+  margin-left: 20px;
+  display: inline-block; }
+
+nav ul li a {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  line-height: 67px; }
+
+nav ul li a:hover {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #2951a7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  line-height: 67px;
+  border-bottom: 2px solid #2951a7; }
+
+#entitats_socials_link {
+  margin-right: 20px; }
+
+.top-bar {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  border-top: 2px solid #2951a7;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #ffffff;
+  opacity: 0.98;
+  position: fixed;
+  z-index: 2; }
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+.hero h1 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 4.8em;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  padding-top: 70px; }
+
+h3 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #2951a7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 1px 0 0 0; }
+
+.hero a {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #2951a7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 126px;
+  border: 2px solid #2951a7;
+  border-radius: 2px;
+  margin: 20px auto 0 auto;
+  padding-top: 12px; }
+
+.stroke {
+  color: #f0f0f0;
+  width: 210px;
+  height: 1px;
+  margin: 15px auto 10px auto;
+  position: relative; }
+
+.cta {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #2951a7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  padding: 0 10pt 10pt 10pt;
+  border: #2951a7 solid 2px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  position: relative; }
+
+/* Sweep To Right de blanc a blau*/
+.hvr-sweep-to-right {
+  display: block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  transition: color .3s; }
+
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2951a7;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform .3s ease-out; }
+
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white; }
+
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  transform: scaleX(1); }
+
+.hero {
+  background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;
+  height: 90vh;
+  max-height: 690px;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 70px; }
+
+/* ==========================================================================
+   Particulars
+   ========================================================================== */
+#particulars {
+  top-marging: 70px;
+  padding-bottom: 40px;
+  background-color: white; }
+  @media screen and (min-width: 48em) {
+    #particulars {
+      padding-bottom: 70px; } }
+
+h2 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 3.6em;
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 60px auto 0 auto;
+  text-align: center; }
 
 /* ==========================================================================
  Clearfix

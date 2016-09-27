@@ -3,7 +3,7 @@
 
     $("#autonoms_link").click(function() {
     $('html, body').animate({
-       scrollTop: $("#autonoms").offset().top
+       scrollTop: $("#autonoms").offset().top 
       }, 1200);
     });
 
