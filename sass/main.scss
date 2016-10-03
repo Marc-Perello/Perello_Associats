@@ -173,6 +173,7 @@ h3{
     border-bottom: 1px solid #eeeeee;
     padding-top: 70px;
 }
+
 /* ==========================================================================
    Particulars
    ========================================================================== */
@@ -191,7 +192,231 @@ h2{
 	margin: 60px auto 0 auto;
   text-align: center;
 }
+h4{
+  @include opensans(600, 2.4em);
+  text-align: center;
+  line-height: 30px;
+  text-align: left;
+  margin: 60px auto 0 auto;
+}
+.llista{
+  @include opensans(400, 1.6em);
+  line-height: 28px;
+}
+ul{
+  margin-top: 20px;
+  padding-left: 10px; 
+  list-style-type: none;
+}
 
+/* ==========================================================================
+Contenidors fotos + text
+========================================================================== */
+.contenidor-foto-esquerra {
+  width: 50%;
+  min-height: 500px;
+  position: relative;
+  background-color: white;
+  float: left; 
+}
+
+.contenidor-foto-dreta {
+  width: 50%;
+  min-height: 500px;
+  position: relative;
+  background-color: white;
+  float: left;
+}
+
+.contenidor-text-dreta {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  float: right;
+  clear: right;
+  display: block;
+  position: relative;
+}
+
+.contenidor-text-esquerra {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  float: left;
+  clear: right;
+  display: block;
+  position: relative;
+}
+/* ==========================================================================
+Textos
+========================================================================== */
+.border{
+  border: #fff 5px;
+}
+
+figure{
+  margin: 0;
+}
+
+.fotos-dreta{
+      width:50%;
+      margin:0;
+      padding: 0;
+}
+
+.fotos-esquerra{
+      width:50%;
+      margin:0;
+      padding: 0;
+}
+
+.text-dreta{
+      width:50%;
+      margin:0;
+      padding: 0;
+}
+
+.text-esquerra{
+      width:50%;
+      margin:0;
+      padding: 0;
+}
+/* ==========================================================================
+Fotos
+========================================================================== */
+
+#foto1{
+  margin:0;
+  padding:0;
+  z-index: 0;
+  position: absolute;
+}
+
+#foto2 {
+   margin:150px 0 0 0;
+   right: 0;
+   padding:0;
+   z-index: 1;
+   float: right;
+   border: #fff solid 5px;
+   position: absolute;
+}
+
+#foto3{
+  margin:0;
+  padding:0;
+  z-index: 1;
+  float: right;
+  border: #fff solid 5px;
+  position: absolute;
+}
+
+#foto4 {
+   margin:90px 0 0 0;
+   right: 0;
+   padding:0;
+   z-index: 0;
+   float: right;
+   border: #fff solid 5px;
+   position: absolute;
+}
+
+#foto5{
+  margin:0;
+  padding:0;
+  z-index: 0;
+  position: absolute;
+}
+
+#foto6 {
+   margin:150px 0 0 0;
+   right: 0;
+   padding:0;
+   z-index: 1;
+   float: right;
+   border: #fff solid 5px;
+   position: absolute;
+}
+
+#foto7{
+  margin:0;
+  padding:0;
+  border: #fff solid 5px;
+  z-index: 1;
+  position: absolute;
+}
+
+#foto8 {
+   margin:150px 0 0 0;
+   right: 0;
+   padding:0;
+   z-index: 0;
+   float: right;
+   position: absolute;
+}
+
+#foto9{
+  margin:0;
+  padding:0;
+  z-index: 0;
+  position: absolute;
+}
+
+#foto10 {
+   margin:150px 0 0 0;
+   right: 0;
+   padding:0;
+   z-index: 1;
+   float: right;
+   border: #fff solid 5px;
+   position: absolute;
+}
+
+/* ==========================================================================
+Contacte
+========================================================================== */
+.mapa {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  display: block;
+}
+.form {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  display: block;
+
+}
+/* ==========================================================================
+ Footer
+========================================================================== */
+.stroke-blau{
+  color: #5474b9;
+  width: 210px;
+  height: 2px;
+  margin: 15px auto 0 auto;
+  position: relative;
+}
+copyright{
+  @include opensans(400, 1.4em,#4b515d);
+  text-align: center;
+  display: block;
+}
+
+#contacte {
+  background-color: #2951a7;
+}
+.info{
+  color: #ffffff;
+}
+footer {
+  background-color: #2f3542;
+}
 
 /* ==========================================================================
  Clearfix
