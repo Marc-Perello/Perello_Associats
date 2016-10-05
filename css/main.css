@@ -193,6 +193,15 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+@fontface {
+  font-family: 'LC-regular';
+  src: url("../fonts/LibreCaslonText-Regular.ttf") format("truetype"); }
+@fontface {
+  font-family: 'LC-bold';
+  src: url("../fonts/LibreCaslonText-Bold.ttf") format("truetype"); }
+@fontface {
+  font-family: 'LC-italic';
+  src: url("../fonts/LibreCaslonText-Italic.ttf") format("truetype"); }
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -292,8 +301,7 @@ nav ul li a:hover {
    Hero
    ========================================================================== */
 .hero h1 {
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: 'LC-italic', serif;
   font-size: 4.8em;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
@@ -399,6 +407,26 @@ h3 {
   @media screen and (min-width: 48em) {
     #particulars {
       padding-bottom: 70px; } }
+
+.contenidor-esquerra {
+  float: left;
+  display: block;
+  margin-right: 0.1547101135%;
+  width: 49.9226449433%;
+  min-height: 500px;
+  background-color: yellow; }
+  .contenidor-esquerra:last-child {
+    margin-right: 0; }
+
+.contenidor-dreta {
+  float: left;
+  display: block;
+  margin-right: 0.1547101135%;
+  width: 49.9226449433%;
+  min-height: 500px;
+  background-color: blue; }
+  .contenidor-dreta:last-child {
+    margin-right: 0; }
 
 h2 {
   font-family: 'Open Sans', Helvetica, sans-serif;

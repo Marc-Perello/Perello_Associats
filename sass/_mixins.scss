@@ -42,7 +42,18 @@ $xxl: min-width $bp-xxlarge;
 	
 // }
 
-
+@fontface{
+  font-family:'LC-regular';
+  src: url('../fonts/LibreCaslonText-Regular.ttf') format('truetype');
+}
+@fontface{
+  font-family:'LC-bold';
+  src: url('../fonts/LibreCaslonText-Bold.ttf') format('truetype');
+}
+@fontface{
+  font-family:'LC-italic';
+  src: url('../fonts/LibreCaslonText-Italic.ttf') format('truetype');
+}
 
 
 @mixin smoothy{
@@ -57,13 +68,31 @@ $xxl: min-width $bp-xxlarge;
  color:$color;
  @include smoothy;
 }
-
-@mixin slab($weight, $size) {
- font-family: 'Roboto Slab', Times, serif; 
- font-weight: $weight; 
+@mixin LC-regular($size, $color:#0a0a0a) {
+ font-family: 'LC-regular', serif; 
  font-size: $size; 
+ color:$color;
  @include smoothy;
 }
+@mixin LC-bold($size, $color:#0a0a0a) {
+ font-family: 'LC-bold', serif; 
+ font-size: $size; 
+ color:$color;
+ @include smoothy;
+}
+@mixin LC-italic($size, $color:#0a0a0a) {
+ font-family: 'LC-italic', serif; 
+ font-size: $size; 
+ color:$color;
+ @include smoothy;
+}
+
+
+// @mixin LC($type, $size) {
+//  font-family: 'LC-#{$type}', Times, serif; 
+//  font-size: $size; 
+//  @include smoothy;
+// }
 
 @mixin border-box{
     box-sizing: border-box;
