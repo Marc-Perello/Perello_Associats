@@ -12,6 +12,7 @@
 
 html {
   font-size:100%;
+  background-color: #fcfcfc;
 }
 h1{
 	margin:0;
@@ -87,7 +88,7 @@ nav ul li a:hover{
   background-color: #ffffff;
   opacity: 0.98;
   position: fixed;
-  z-index: 2;
+  z-index: 99999;
 }
 /* ==========================================================================
    Hero
@@ -97,7 +98,7 @@ nav ul li a:hover{
   text-align: center;
   padding-top: 70px;
 }
-h3{
+.hero h3{
 	@include opensans(400, 2em, #2951a7);
   text-align: center;
   margin:1px 0 0 0 ;
@@ -178,30 +179,40 @@ h3{
    Particulars
    ========================================================================== */
 #particulars{
-	top-marging: 70px;
-  padding-bottom: 40px;
+  max-width: 800px;
+	margin: -50px auto auto auto;
+  border: 1px solid #f5f5f5;
   background-color: white;
   // Media Queries
       @include media($m) {
-                padding-bottom: 70px;
+                }
+    // 
+    @include media($l) {
+                max-width: 1280px;
                 }
     // 
 }
-.contenidor-esquerra {
+.contenidor-esquerra{
   @include span-columns(6);
-  min-height: 500px;
-  background-color: yellow;
+  min-height: 830px;
+  background-color: white;
+  position: relative;
 }
-.contenidor-dreta {
+.contenidor-dreta{
   @include span-columns(6);
-  min-height: 500px;
-  background-color: blue;
+  min-height: 830px;
+  background-color: white;
 }
 
 h2{
 	@include opensans(600, 3.6em);
 	margin: 60px auto 0 auto;
-  text-align: center;
+  text-align: left;
+}
+h3{
+  @include opensans(400, 2em, #2951a7);
+  text-align: left;
+  margin:1px 0 0 0 ;
 }
 h4{
   @include opensans(600, 2.4em);
@@ -210,6 +221,14 @@ h4{
   text-align: left;
   margin: 60px auto 0 auto;
 }
+h5{
+  @include opensans(400, 1.8em, #999999);
+  text-align: center;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 90px;
+}
+
 .llista{
   @include opensans(400, 1.6em);
   line-height: 28px;
@@ -223,42 +242,103 @@ ul{
 /* ==========================================================================
 Contenidors fotos + text
 ========================================================================== */
-.contenidor-foto-esquerra {
-  width: 50%;
-  min-height: 500px;
-  position: relative;
-  background-color: white;
-  float: left; 
-}
+// .contenidor-foto-esquerra {
+//   width: 50%;
+//   min-height: 500px;
+//   position: relative;
+//   background-color: white;
+//   float: left; 
+// }
 
-.contenidor-foto-dreta {
-  width: 50%;
-  min-height: 500px;
-  position: relative;
-  background-color: white;
-  float: left;
-}
+// .contenidor-foto-dreta {
+//   width: 50%;
+//   min-height: 500px;
+//   position: relative;
+//   background-color: white;
+//   float: left;
+// }
 
-.contenidor-text-dreta {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  background-color: white;
-  float: right;
-  clear: right;
-  display: block;
-  position: relative;
-}
+// .contenidor-text-dreta {
+//   width: 50%;
+//   height: auto;
+//   margin: 0 auto;
+//   background-color: white;
+//   float: right;
+//   clear: right;
+//   display: block;
+//   position: relative;
+// }
 
-.contenidor-text-esquerra {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  background-color: #fff;
-  float: left;
-  clear: right;
-  display: block;
-  position: relative;
+// .contenidor-text-esquerra {
+//   width: 50%;
+//   height: auto;
+//   margin: 0 auto;
+//   background-color: #fff;
+//   float: left;
+//   clear: right;
+//   display: block;
+//   position: relative;
+// }
+.marc-foto-1{
+  width: 190px;
+  height: 365px;
+  // background-color: #2951a7;
+  // box-shadow:  3px rgba(0, 0, 0, 0.3),  3px rgba(0, 0, 0, 0.3);
+  margin: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+      // Media Queries 
+    // @include media($m) {
+    //   width: 192px;
+    //   height: 370px;
+    //   position: absolute;
+    //   right: 0;
+    // }
+    @include media($l) {
+      width: 427px;
+      height: 630px;
+
+    }
+    //
+}
+//FORMA
+.forma1{
+  width: 560px;
+  height: 560px;
+  border-radius: 50%;
+  background: #fafafa;
+}
+//IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
+.image1{ 
+  z-index: 99;
+  // // MOBILE
+  // background-image: url(../img/img1_S.jpg); 
+  //     // RETINA
+  //     @include hidpi(2) {
+  //       background-image: url(../img/img1_S_@2x.jpg);  
+  //       background-size: 100%;
+  //     }
+  // // TABLET
+  // @include media($m) {
+  // background-image: url(../img/img1_M.jpg);  
+  //      // RETINA
+  //       @include hidpi(2) {
+  //         background-image: url(../img/img1_M_@2x.jpg);  
+  //         background-size: 100%;
+  //       }
+  //  }
+ // DESKTOP
+  @include media($l) {
+  background-image: url(../img/particulars1_L.jpg);  
+       // RETINA
+        @include hidpi(2) {
+          background-image: url(../img/particulars1_L_@2x.jpg);  
+          background-size: 100%;
+        }
+      }
 }
 /* ==========================================================================
 Textos
