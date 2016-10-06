@@ -21,9 +21,15 @@ h1{
 body{
  font-size:10px;
 }
-.container{
-    @include outer-container($max-width);
+.menu-container{
+  @include outer-container($max-width);
 }
+.container{
+  @include outer-container($max-width);
+  border: 1px solid #f5f5f5;
+  background-color: white;
+}
+
 .full-width{
   width: 100%;
 }
@@ -180,18 +186,17 @@ nav ul li a:hover{
    ========================================================================== */
 #particulars{
 	margin: -50px auto auto auto;
-  border: 1px solid #f5f5f5;
-  background-color: white;
-  // Media Queries
+ // Media Queries
       @include media($m) {
                 }
     // 
     @include media($l) {
-                // max-width: 1280px;
-                @include span-columns(11);
-                @include shift(.5);
                 }
     // 
+}
+.blue-dash{
+  margin:10px;
+  color:#2951a7;
 }
 .contenidor-esquerra{
   @include span-columns(6);
@@ -204,7 +209,6 @@ nav ul li a:hover{
   min-height: 740px;
   background-color: white;
 }
-
 h2{
 	@include opensans(600, 3.6em);
 	margin: 0 auto;
@@ -245,8 +249,8 @@ h5{
 }
 .llista{
   @include opensans(400, 1.6em);
-  line-height: 54px;
-  padding-left:10px;
+  line-height: 56px;
+  padding-left:15px;
   border-bottom: 1px solid #f5f5f5;
 }
 // li{
@@ -257,45 +261,9 @@ li:last-child{
   border-bottom: none;
 } 
 /* ==========================================================================
-Contenidors fotos + text
+Contenidors fotos
 ========================================================================== */
-// .contenidor-foto-esquerra {
-//   width: 50%;
-//   min-height: 500px;
-//   position: relative;
-//   background-color: white;
-//   float: left; 
-// }
 
-// .contenidor-foto-dreta {
-//   width: 50%;
-//   min-height: 500px;
-//   position: relative;
-//   background-color: white;
-//   float: left;
-// }
-
-// .contenidor-text-dreta {
-//   width: 50%;
-//   height: auto;
-//   margin: 0 auto;
-//   background-color: white;
-//   float: right;
-//   clear: right;
-//   display: block;
-//   position: relative;
-// }
-
-// .contenidor-text-esquerra {
-//   width: 50%;
-//   height: auto;
-//   margin: 0 auto;
-//   background-color: #fff;
-//   float: left;
-//   clear: right;
-//   display: block;
-//   position: relative;
-// }
 .marc-foto-1{
   width: 190px;
   height: 365px;
@@ -357,6 +325,89 @@ Contenidors fotos + text
         }
       }
 }
+/* ==========================================================================
+   Autonoms i Freelance
+   ========================================================================== */
+#autonoms{
+  margin: -1px auto auto auto;
+ // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+                
+                }
+    // 
+}
+/* ==========================================================================
+Contenidors fotos
+========================================================================== */
+
+.marc-foto-2{
+  width: 427px;
+  height: 270px;
+  background-color: #2951a7;
+  // box-shadow:  3px rgba(0, 0, 0, 0.3),  3px rgba(0, 0, 0, 0.3);
+   
+  // position: relative;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+      // Media Queries 
+    // @include media($m) {
+    //   width: 192px;
+    //   height: 370px;
+    //   position: absolute;
+    //   right: 0;
+    // }
+    @include media($l) {
+      width: 427px;
+      height: 270px;
+      margin: 100px auto;
+    }
+    //
+}
+//FORMA
+.forma2{
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: #fafafa;
+}
+//IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
+.image2{ 
+  z-index: 99;
+  // // MOBILE
+  // background-image: url(../img/img1_S.jpg); 
+  //     // RETINA
+  //     @include hidpi(2) {
+  //       background-image: url(../img/img1_S_@2x.jpg);  
+  //       background-size: 100%;
+  //     }
+  // // TABLET
+  // @include media($m) {
+  // background-image: url(../img/img1_M.jpg);  
+  //      // RETINA
+  //       @include hidpi(2) {
+  //         background-image: url(../img/img1_M_@2x.jpg);  
+  //         background-size: 100%;
+  //       }
+  //  }
+ // DESKTOP
+  @include media($l) {
+  background-image: url(../img/autonoms1_L.jpg);  
+       // RETINA
+        @include hidpi(2) {
+          background-image: url(../img/autonoms1_L_@2x.jpg);  
+          background-size: 100%;
+        }
+      }
+}
+
+
+
+
 /* ==========================================================================
 Textos
 ========================================================================== */
