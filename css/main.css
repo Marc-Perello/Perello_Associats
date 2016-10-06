@@ -402,20 +402,25 @@ nav ul li a:hover {
    Particulars
    ========================================================================== */
 #particulars {
-  max-width: 800px;
   margin: -50px auto auto auto;
   border: 1px solid #f5f5f5;
   background-color: white; }
   @media screen and (min-width: 64em) {
     #particulars {
-      max-width: 1280px; } }
+      float: left;
+      display: block;
+      margin-right: 0.1547101135%;
+      width: 91.6537741572%;
+      margin-left: 4.1731129214%; }
+      #particulars:last-child {
+        margin-right: 0; } }
 
 .contenidor-esquerra {
   float: left;
   display: block;
   margin-right: 0.1547101135%;
   width: 49.9226449433%;
-  min-height: 830px;
+  min-height: 740px;
   background-color: white;
   position: relative; }
   .contenidor-esquerra:last-child {
@@ -426,7 +431,7 @@ nav ul li a:hover {
   display: block;
   margin-right: 0.1547101135%;
   width: 49.9226449433%;
-  min-height: 830px;
+  min-height: 740px;
   background-color: white; }
   .contenidor-dreta:last-child {
     margin-right: 0; }
@@ -438,7 +443,8 @@ h2 {
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 60px auto 0 auto;
+  margin: 0 auto;
+  line-height: 1;
   text-align: left; }
 
 h3 {
@@ -466,14 +472,32 @@ h4 {
 h5 {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.8em;
+  font-size: 1.4em;
   color: #999999;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  line-height: 30px;
   text-align: left;
-  margin-top: 90px; }
+  margin: 90px auto 0 auto; }
+
+.stroke-titol {
+  color: #f0f0f0;
+  width: 210px;
+  height: 1px;
+  margin: 15px auto 10px 0;
+  position: relative; }
+
+.serveis {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #f5f5f5;
+  float: left;
+  display: block;
+  margin-right: 0.3098996731%;
+  width: 83.2816833878%; }
+  .serveis:last-child {
+    margin-right: 0; }
 
 .llista {
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -482,12 +506,12 @@ h5 {
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 28px; }
-
-ul {
-  margin-top: 20px;
+  line-height: 54px;
   padding-left: 10px;
-  list-style-type: none; }
+  border-bottom: 1px solid #f5f5f5; }
+
+li:last-child {
+  border-bottom: none; }
 
 /* ==========================================================================
 Contenidors fotos + text
@@ -503,11 +527,11 @@ Contenidors fotos + text
   @media screen and (min-width: 64em) {
     .marc-foto-1 {
       width: 427px;
-      height: 630px; } }
+      height: 545px; } }
 
 .forma1 {
-  width: 560px;
-  height: 560px;
+  width: 520px;
+  height: 520px;
   border-radius: 50%;
   background: #fafafa; }
 
