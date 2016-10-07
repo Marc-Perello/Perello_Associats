@@ -185,6 +185,7 @@ nav ul li a:hover{
    Particulars
    ========================================================================== */
 #particulars{
+  @include outer-container;
 	margin: -50px auto auto auto;
  // Media Queries
       @include media($m) {
@@ -193,10 +194,6 @@ nav ul li a:hover{
     @include media($l) {
                 }
     // 
-}
-.blue-dash{
-  margin:10px;
-  color:#2951a7;
 }
 .contenidor-esquerra{
   @include span-columns(6);
@@ -208,6 +205,10 @@ nav ul li a:hover{
   @include span-columns(6);
   min-height: 740px;
   background-color: white;
+}
+.blue-dash{
+  margin:10px;
+  color:#2951a7;
 }
 h2{
 	@include opensans(600, 3.6em);
@@ -249,8 +250,9 @@ h5{
 }
 .llista{
   @include opensans(400, 1.6em);
-  line-height: 56px;
+  padding-top:15px;
   padding-left:15px;
+  padding-bottom:15px;
   border-bottom: 1px solid #f5f5f5;
 }
 // li{
@@ -264,11 +266,11 @@ li:last-child{
 Contenidors fotos
 ========================================================================== */
 
-.marc-foto-1{
+
+//FORMA
+.marc-forma-1{
   width: 190px;
-  height: 365px;
-  // background-color: #2951a7;
-  // box-shadow:  3px rgba(0, 0, 0, 0.3),  3px rgba(0, 0, 0, 0.3);
+  height: 100%;
   margin: auto; 
   position: absolute;
   top: 50%;
@@ -276,27 +278,42 @@ Contenidors fotos
   transform: translate(-50%, -50%);
 
       // Media Queries 
-    // @include media($m) {
-    //   width: 192px;
-    //   height: 370px;
-    //   position: absolute;
-    //   right: 0;
-    // }
+    @include media($m) {
+      max-height: 420px;
+      @include span-columns(5 of 6);
+    }
     @include media($l) {
-      width: 427px;
-      height: 545px;
-
+      max-height: 530px;
+      @include span-columns(5 of 6);
     }
     //
 }
-//FORMA
 .forma1{
-  width: 520px;
-  height: 520px;
+  // width: auto;
+  // height: auto;
   border-radius: 50%;
   background: #fafafa;
 }
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
+.marc-foto-1{
+  width: 190px;
+  height: 365px;
+  margin: auto; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+      // Media Queries 
+    @include media($m) {
+      @include span-columns(4 of 6);
+    }
+    @include media($l) {
+      height: 545px;
+      @include span-columns(4 of 6);
+    }
+    //
+}
 .image1{ 
   z-index: 99;
   // // MOBILE
@@ -317,11 +334,12 @@ Contenidors fotos
   //  }
  // DESKTOP
   @include media($l) {
-  background-image: url(../img/particulars1_L.jpg);  
+
+  background: url(../img/particulars1_L.jpg) center top;  
        // RETINA
         @include hidpi(2) {
           background-image: url(../img/particulars1_L_@2x.jpg);  
-          background-size: 100%;
+          background-size: auto;
         }
       }
 }
@@ -329,6 +347,7 @@ Contenidors fotos
    Autonoms i Freelance
    ========================================================================== */
 #autonoms{
+  @include outer-container;
   margin: -1px auto auto auto;
  // Media Queries
       @include media($m) {
@@ -338,6 +357,10 @@ Contenidors fotos
                 
                 }
     // 
+}
+.text-esquerra{
+   @include span-columns(5 of 6)
+
 }
 /* ==========================================================================
 Contenidors fotos
