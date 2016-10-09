@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
 @import 'reset';
 @import 'bourbon';
 @import 'grid-settings';
@@ -33,7 +34,23 @@ body{
 .full-width{
   width: 100%;
 }
+.contenidor{
 
+}
+.contenidor-esquerra{
+  @include span-columns(6);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 660px;
+  background-color: gray;
+  position: relative;
+}
+.contenidor-dreta{
+  @include span-columns(6);
+  padding-top: 50px;
+   min-height: 700px;
+  background-color: red;
+}
 /* ==========================================================================
    Menu Principal
    ========================================================================== */
@@ -47,13 +64,14 @@ body{
 }
 
 .logo img{
-	margin-left: 20px;
+  height: 50px;
+	// margin-left: 20px;
   float:left;
 }
 
 #lletres-logo{
-	@include opensans(700, 2em);
-  line-height: 67px;
+	@include SerifPro(700, 1.8em, #0a0a0a);
+  line-height: 50px;
   margin: 0 auto 0 5px;
   padding: 0;
   float:left;
@@ -71,24 +89,23 @@ nav ul li{
 }
 
 nav ul li a{
-  @include opensans(600, 1.6em);
+  @include SerifPro(700, 1.5em, #0a0a0a);
   text-decoration: none; 
-  line-height: 67px;
+  line-height: 50px;
 }
 nav ul li a:hover{
-  @include opensans(600, 1.6em, #2951a7);
+  @include SerifPro(700, 1.5em, #2951a7);
   text-decoration: none; 
-  line-height: 67px;
-  border-bottom: 2px solid #2951a7;
+  // border-bottom: thin solid #2951a7;
 }
-#entitats_socials_link{
-  margin-right: 20px; 
-}
+// #entitats_socials_link{
+//   margin-right: 20px; 
+// }
 
 .top-bar { 
 	margin: 0;
   width: 100%;
-  height: 70px;
+  height: 50px;
   border-top: 2px solid #2951a7;
   border-bottom: 1px solid #eeeeee;
   background-color: #ffffff;
@@ -96,31 +113,19 @@ nav ul li a:hover{
   position: fixed;
   z-index: 99999;
 }
+
 /* ==========================================================================
    Hero
    ========================================================================== */
 .hero h1{
-	@include LC-italic(4.8em);
+  @include SerifPro(700, 4.8em);
   text-align: center;
-  padding-top: 70px;
+  padding-top: 65px;
 }
 .hero h3{
-	@include opensans(400, 2em, #2951a7);
+  @include SerifPro(400, 2.4em,#2951a7);
   text-align: center;
   margin:1px 0 0 0 ;
-}
-.hero a{
-		@include opensans(600, 2em, #2951a7);
-    line-height: 30px;
-    text-align: center; 
-    text-decoration: none;
-    display: block;
-    width: 126px;
-    border: 2px solid #2951a7;
-    border-radius: 2px;
-    // background-color: #fcfcfc;
-    margin: 20px auto 0 auto;
-    padding-top: 12px;
 }
 .stroke{
   color: #f0f0f0;
@@ -130,16 +135,19 @@ nav ul li a:hover{
   position: relative;
 }
 .cta{
-	@include opensans(600, 2em, #2951a7);
-  text-decoration: none;
-  text-align: center;
-  background-color: white;
-  padding: 0 10pt 10pt 10pt;
-  border: #2951a7 solid 2px;
+  height: 50px;
+  background-color: #2951a7;
   max-width: 200px;
-  display:block;
-  margin:0 auto;
-  position:relative;
+}
+.hero a{
+    @include opensans(600, 2em, #ffffff);
+    line-height: 50px;
+    text-align: center; 
+    text-decoration: none;
+    display: block;
+    width: 126px;
+    border-radius: 2px;
+    margin: 40px auto 0 auto;
 }
 /* Sweep To Right de blanc a blau*/
 .hvr-sweep-to-right {
@@ -177,76 +185,64 @@ nav ul li a:hover{
     background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;
     height: 90vh;
     max-height: 690px;
-    border-bottom: 1px solid #eeeeee;
-    padding-top: 70px;
+    // border-bottom: 1px solid #eeeeee;
+    padding-top: 50px;
 }
 
+
+.serveis-clients{
+  @include outer-container($max-width);
+}
 /* ==========================================================================
    Particulars
    ========================================================================== */
 #particulars{
-  @include outer-container;
+  @include outer-container($max-width);
 	margin: -50px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
  // Media Queries
       @include media($m) {
                 }
     // 
     @include media($l) {
+       
                 }
     // 
 }
-.contenidor-esquerra{
-  @include span-columns(6);
-  min-height: 740px;
-  background-color: white;
-  position: relative;
-}
-.contenidor-dreta{
-  @include span-columns(6);
-  min-height: 740px;
-  background-color: white;
-}
-.blue-dash{
-  margin:10px;
-  color:#2951a7;
-}
 h2{
-	@include opensans(600, 3.6em);
-	margin: 0 auto;
-  line-height: 1;
+  @include SerifPro(700, 3.8em);
+	margin: 0;
   text-align: left;
+  margin: 0 auto;
 }
 h3{
-  @include opensans(400, 2em, #2951a7);
+  @include SerifPro(400, 2em, #2951a7);
   text-align: left;
-  margin:1px 0 0 0 ;
+  margin:14px auto;
 }
 h4{
   @include opensans(600, 2.4em);
   text-align: center;
-  line-height: 30px;
   text-align: left;
-  margin: 60px auto 0 auto;
+  margin: 0 auto;
 }
 h5{
-  @include opensans(400, 1.4em, #999999);
-  text-align: center;
+  @include SerifPro(400, 1.6em, #999999);
   text-align: left;
-  margin: 90px auto 0 auto;
+  margin: 0 auto;
 }
-.stroke-titol{
-  color: #f0f0f0;
-  width: 210px;
-  height: 1px;
-  margin: 15px auto 10px 0;
-  position: relative;
+#particulars .stroke-titol{
+  width: 195px;
+  margin-top: 4px;
+  border-bottom: 2px solid #f5f5f5;
 }
 .serveis{
   margin-top: 20px;
   padding: 0;
   list-style-type: none;
   border: 1px solid #f5f5f5;
-  @include span-columns(5 of 6); 
+  @include span-columns(5.5 of 6); 
 }
 .llista{
   @include opensans(400, 1.6em);
@@ -254,6 +250,11 @@ h5{
   padding-left:15px;
   padding-bottom:15px;
   border-bottom: 1px solid #f5f5f5;
+}
+.blue-dash{
+  margin-left:1%;
+  margin-right:2%;
+  color:#2951a7;
 }
 // li{
 //   padding: 10px;
@@ -265,8 +266,6 @@ li:last-child{
 /* ==========================================================================
 Contenidors fotos
 ========================================================================== */
-
-
 //FORMA
 .marc-forma-1{
   width: 190px;
@@ -276,7 +275,6 @@ Contenidors fotos
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
       // Media Queries 
     @include media($m) {
       max-height: 420px;
@@ -339,7 +337,7 @@ Contenidors fotos
        // RETINA
         @include hidpi(2) {
           background-image: url(../img/particulars1_L_@2x.jpg);  
-          background-size: auto;
+          background-size: 100%;
         }
       }
 }
@@ -349,6 +347,8 @@ Contenidors fotos
 #autonoms{
   @include outer-container;
   margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
  // Media Queries
       @include media($m) {
                 }
@@ -358,10 +358,15 @@ Contenidors fotos
                 }
     // 
 }
-.text-esquerra{
-   @include span-columns(5 of 6)
-
+.esquerra{
+  @include shift(.5);
 }
+#autonoms .stroke-titol{
+  width: 390px;
+  margin-top: 4px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
 /* ==========================================================================
 Contenidors fotos
 ========================================================================== */
