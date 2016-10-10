@@ -34,22 +34,21 @@ body{
 .full-width{
   width: 100%;
 }
-.contenidor{
 
-}
 .contenidor-esquerra{
   @include span-columns(6);
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
   min-height: 660px;
-  background-color: gray;
+  background-color: white;
   position: relative;
 }
 .contenidor-dreta{
   @include span-columns(6);
-  padding-top: 50px;
-   min-height: 700px;
-  background-color: red;
+  padding-top: 60px;
+  padding-bottom: 60px;
+   min-height: 660px;
+  background-color: white;
 }
 /* ==========================================================================
    Menu Principal
@@ -192,6 +191,7 @@ nav ul li a:hover{
 
 .serveis-clients{
   @include outer-container($max-width);
+  padding: 0 40px;
 }
 /* ==========================================================================
    Particulars
@@ -263,9 +263,9 @@ h5{
 li:last-child{
   border-bottom: none;
 } 
-/* ==========================================================================
-Contenidors fotos
-========================================================================== */
+
+//Contenidors fotos
+
 //FORMA
 .marc-forma-1{
   width: 190px;
@@ -292,6 +292,7 @@ Contenidors fotos
   border-radius: 50%;
   background: #fafafa;
 }
+
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
 .marc-foto-1{
   width: 190px;
@@ -367,10 +368,7 @@ Contenidors fotos
   border-bottom: 2px solid #f5f5f5;
 }
 
-/* ==========================================================================
-Contenidors fotos
-========================================================================== */
-
+//Contenidors fotos
 .marc-foto-2{
   width: 427px;
   height: 270px;
@@ -396,6 +394,7 @@ Contenidors fotos
     }
     //
 }
+
 //FORMA
 .forma2{
   width: 520px;
@@ -403,6 +402,7 @@ Contenidors fotos
   border-radius: 50%;
   background: #fafafa;
 }
+
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
 .image2{ 
   z-index: 99;
@@ -434,132 +434,56 @@ Contenidors fotos
 }
 
 
+/* ==========================================================================
+PIMES i Startups
+========================================================================== */
+#pimes{
+  @include outer-container;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+ // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+                
+                }
+    // 
+}
+//FOTOS
+.marc-foto-4{
+  width:340px;
+  height: 260px;
+  margin-top: 60px;
+  background-color: red;
+  border: 1px white solid;
+  float:left;
+}
+
+
+#pimes h2{
+  text-align: center;
+  margin:0 auto;
+}
+#pimes h3{
+  text-align: center;
+  margin:0 auto;
+}
+#pimes h5{
+  text-align: center;
+  margin-top: 45px;
+}
+
 
 
 /* ==========================================================================
-Textos
+Gran Empresa
 ========================================================================== */
-.border{
-  border: #fff 5px;
-}
 
-figure{
-  margin: 0;
-}
-
-.fotos-dreta{
-      width:50%;
-      margin:0;
-      padding: 0;
-}
-
-.fotos-esquerra{
-      width:50%;
-      margin:0;
-      padding: 0;
-}
-
-.text-dreta{
-      width:50%;
-      margin:0;
-      padding: 0;
-}
-
-.text-esquerra{
-      width:50%;
-      margin:0;
-      padding: 0;
-}
 /* ==========================================================================
-Fotos
+Entitats Socials
 ========================================================================== */
-
-#foto1{
-  margin:0;
-  padding:0;
-  z-index: 0;
-  position: absolute;
-}
-
-#foto2 {
-   margin:150px 0 0 0;
-   right: 0;
-   padding:0;
-   z-index: 1;
-   float: right;
-   border: #fff solid 5px;
-   position: absolute;
-}
-
-#foto3{
-  margin:0;
-  padding:0;
-  z-index: 1;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute;
-}
-
-#foto4 {
-   margin:90px 0 0 0;
-   right: 0;
-   padding:0;
-   z-index: 0;
-   float: right;
-   border: #fff solid 5px;
-   position: absolute;
-}
-
-#foto5{
-  margin:0;
-  padding:0;
-  z-index: 0;
-  position: absolute;
-}
-
-#foto6 {
-   margin:150px 0 0 0;
-   right: 0;
-   padding:0;
-   z-index: 1;
-   float: right;
-   border: #fff solid 5px;
-   position: absolute;
-}
-
-#foto7{
-  margin:0;
-  padding:0;
-  border: #fff solid 5px;
-  z-index: 1;
-  position: absolute;
-}
-
-#foto8 {
-   margin:150px 0 0 0;
-   right: 0;
-   padding:0;
-   z-index: 0;
-   float: right;
-   position: absolute;
-}
-
-#foto9{
-  margin:0;
-  padding:0;
-  z-index: 0;
-  position: absolute;
-}
-
-#foto10 {
-   margin:150px 0 0 0;
-   right: 0;
-   padding:0;
-   z-index: 1;
-   float: right;
-   border: #fff solid 5px;
-   position: absolute;
-}
 
 /* ==========================================================================
 Contacte

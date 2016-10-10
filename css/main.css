@@ -194,25 +194,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #000 0, #000 8.1915157293%, transparent 8.1915157293%, transparent 8.3462258428%, #000 8.3462258428%, #000 16.5377415721%, transparent 16.5377415721%, transparent 16.6924516856%, #000 16.6924516856%, #000 24.8839674149%, transparent 24.8839674149%, transparent 25.0386775284%, #000 25.0386775284%, #000 33.2301932577%, transparent 33.2301932577%, transparent 33.3849033712%, #000 33.3849033712%, #000 41.5764191005%, transparent 41.5764191005%, transparent 41.731129214%, #000 41.731129214%, #000 49.9226449433%, transparent 49.9226449433%, transparent 50.0773550567%, #000 50.0773550567%, #000 58.268870786%, transparent 58.268870786%, transparent 58.4235808995%, #000 58.4235808995%, #000 66.6150966288%, transparent 66.6150966288%, transparent 66.7698067423%, #000 66.7698067423%, #000 74.9613224716%, transparent 74.9613224716%, transparent 75.1160325851%, #000 75.1160325851%, #000 83.3075483144%, transparent 83.3075483144%, transparent 83.4622584279%, #000 83.4622584279%, #000 91.6537741572%, transparent 91.6537741572%, transparent 91.8084842707%, #000 91.8084842707%, #000 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #000 0, #000 8.1915157293%, transparent 8.1915157293%, transparent 8.3462258428%, #000 8.3462258428%, #000 16.5377415721%, transparent 16.5377415721%, transparent 16.6924516856%, #000 16.6924516856%, #000 24.8839674149%, transparent 24.8839674149%, transparent 25.0386775284%, #000 25.0386775284%, #000 33.2301932577%, transparent 33.2301932577%, transparent 33.3849033712%, #000 33.3849033712%, #000 41.5764191005%, transparent 41.5764191005%, transparent 41.731129214%, #000 41.731129214%, #000 49.9226449433%, transparent 49.9226449433%, transparent 50.0773550567%, #000 50.0773550567%, #000 58.268870786%, transparent 58.268870786%, transparent 58.4235808995%, #000 58.4235808995%, #000 66.6150966288%, transparent 66.6150966288%, transparent 66.7698067423%, #000 66.7698067423%, #000 74.9613224716%, transparent 74.9613224716%, transparent 75.1160325851%, #000 75.1160325851%, #000 83.3075483144%, transparent 83.3075483144%, transparent 83.4622584279%, #000 83.4622584279%, #000 91.6537741572%, transparent 91.6537741572%, transparent 91.8084842707%, #000 91.8084842707%, #000 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #000 0, #000 8.1915157293%, transparent 8.1915157293%, transparent 8.3462258428%, #000 8.3462258428%, #000 16.5377415721%, transparent 16.5377415721%, transparent 16.6924516856%, #000 16.6924516856%, #000 24.8839674149%, transparent 24.8839674149%, transparent 25.0386775284%, #000 25.0386775284%, #000 33.2301932577%, transparent 33.2301932577%, transparent 33.3849033712%, #000 33.3849033712%, #000 41.5764191005%, transparent 41.5764191005%, transparent 41.731129214%, #000 41.731129214%, #000 49.9226449433%, transparent 49.9226449433%, transparent 50.0773550567%, #000 50.0773550567%, #000 58.268870786%, transparent 58.268870786%, transparent 58.4235808995%, #000 58.4235808995%, #000 66.6150966288%, transparent 66.6150966288%, transparent 66.7698067423%, #000 66.7698067423%, #000 74.9613224716%, transparent 74.9613224716%, transparent 75.1160325851%, #000 75.1160325851%, #000 83.3075483144%, transparent 83.3075483144%, transparent 83.4622584279%, #000 83.4622584279%, #000 91.6537741572%, transparent 91.6537741572%, transparent 91.8084842707%, #000 91.8084842707%, #000 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #000 0, #000 8.1915157293%, transparent 8.1915157293%, transparent 8.3462258428%, #000 8.3462258428%, #000 16.5377415721%, transparent 16.5377415721%, transparent 16.6924516856%, #000 16.6924516856%, #000 24.8839674149%, transparent 24.8839674149%, transparent 25.0386775284%, #000 25.0386775284%, #000 33.2301932577%, transparent 33.2301932577%, transparent 33.3849033712%, #000 33.3849033712%, #000 41.5764191005%, transparent 41.5764191005%, transparent 41.731129214%, #000 41.731129214%, #000 49.9226449433%, transparent 49.9226449433%, transparent 50.0773550567%, #000 50.0773550567%, #000 58.268870786%, transparent 58.268870786%, transparent 58.4235808995%, #000 58.4235808995%, #000 66.6150966288%, transparent 66.6150966288%, transparent 66.7698067423%, #000 66.7698067423%, #000 74.9613224716%, transparent 74.9613224716%, transparent 75.1160325851%, #000 75.1160325851%, #000 83.3075483144%, transparent 83.3075483144%, transparent 83.4622584279%, #000 83.4622584279%, #000 91.6537741572%, transparent 91.6537741572%, transparent 91.8084842707%, #000 91.8084842707%, #000 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #000 0, #000 8.1915157293%, transparent 8.1915157293%, transparent 8.3462258428%, #000 8.3462258428%, #000 16.5377415721%, transparent 16.5377415721%, transparent 16.6924516856%, #000 16.6924516856%, #000 24.8839674149%, transparent 24.8839674149%, transparent 25.0386775284%, #000 25.0386775284%, #000 33.2301932577%, transparent 33.2301932577%, transparent 33.3849033712%, #000 33.3849033712%, #000 41.5764191005%, transparent 41.5764191005%, transparent 41.731129214%, #000 41.731129214%, #000 49.9226449433%, transparent 49.9226449433%, transparent 50.0773550567%, #000 50.0773550567%, #000 58.268870786%, transparent 58.268870786%, transparent 58.4235808995%, #000 58.4235808995%, #000 66.6150966288%, transparent 66.6150966288%, transparent 66.7698067423%, #000 66.7698067423%, #000 74.9613224716%, transparent 74.9613224716%, transparent 75.1160325851%, #000 75.1160325851%, #000 83.3075483144%, transparent 83.3075483144%, transparent 83.4622584279%, #000 83.4622584279%, #000 91.6537741572%, transparent 91.6537741572%, transparent 91.8084842707%, #000 91.8084842707%, #000 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1172px;
-  opacity: 0.1;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: 9999; }
-
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -228,7 +209,7 @@ body {
   font-size: 10px; }
 
 .menu-container {
-  max-width: 1172px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto; }
   .menu-container::after {
@@ -237,7 +218,7 @@ body {
     display: table; }
 
 .container {
-  max-width: 1172px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #f5f5f5;
@@ -255,10 +236,10 @@ body {
   display: block;
   margin-right: 0.1547101135%;
   width: 49.9226449433%;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
   min-height: 660px;
-  background-color: gray;
+  background-color: white;
   position: relative; }
   .contenidor-esquerra:last-child {
     margin-right: 0; }
@@ -268,9 +249,10 @@ body {
   display: block;
   margin-right: 0.1547101135%;
   width: 49.9226449433%;
-  padding-top: 50px;
-  min-height: 700px;
-  background-color: red; }
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-height: 660px;
+  background-color: white; }
   .contenidor-dreta:last-child {
     margin-right: 0; }
 
@@ -426,9 +408,10 @@ nav ul li a:hover {
   padding-top: 50px; }
 
 .serveis-clients {
-  max-width: 1172px;
+  max-width: 1280px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 0 40px; }
   .serveis-clients::after {
     clear: both;
     content: "";
@@ -438,7 +421,7 @@ nav ul li a:hover {
    Particulars
    ========================================================================== */
 #particulars {
-  max-width: 1172px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   margin: -50px auto auto auto;
@@ -528,9 +511,6 @@ h5 {
 li:last-child {
   border-bottom: none; }
 
-/* ==========================================================================
-Contenidors fotos
-========================================================================== */
 .marc-forma-1 {
   width: 190px;
   height: 100%;
@@ -602,7 +582,7 @@ Contenidors fotos
    Autonoms i Freelance
    ========================================================================== */
 #autonoms {
-  max-width: 1172px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   margin: -1px auto auto auto;
@@ -621,9 +601,6 @@ Contenidors fotos
   margin-top: 4px;
   border-bottom: 2px solid #f5f5f5; }
 
-/* ==========================================================================
-Contenidors fotos
-========================================================================== */
 .marc-foto-2 {
   width: 427px;
   height: 270px;
@@ -651,114 +628,46 @@ Contenidors fotos
       background-size: 100%; } }
 
 /* ==========================================================================
-Textos
+PIMES i Startups
 ========================================================================== */
-.border {
-  border: #fff 5px; }
+#pimes {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2; }
+  #pimes::after {
+    clear: both;
+    content: "";
+    display: table; }
 
-figure {
-  margin: 0; }
+.marc-foto-4 {
+  width: 340px;
+  height: 260px;
+  margin-top: 60px;
+  background-color: red;
+  border: 1px white solid;
+  float: left; }
 
-.fotos-dreta {
-  width: 50%;
-  margin: 0;
-  padding: 0; }
+#pimes h2 {
+  text-align: center;
+  margin: 0 auto; }
 
-.fotos-esquerra {
-  width: 50%;
-  margin: 0;
-  padding: 0; }
+#pimes h3 {
+  text-align: center;
+  margin: 0 auto; }
 
-.text-dreta {
-  width: 50%;
-  margin: 0;
-  padding: 0; }
-
-.text-esquerra {
-  width: 50%;
-  margin: 0;
-  padding: 0; }
+#pimes h5 {
+  text-align: center;
+  margin-top: 45px; }
 
 /* ==========================================================================
-Fotos
+Gran Empresa
 ========================================================================== */
-#foto1 {
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-  position: absolute; }
-
-#foto2 {
-  margin: 150px 0 0 0;
-  right: 0;
-  padding: 0;
-  z-index: 1;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute; }
-
-#foto3 {
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute; }
-
-#foto4 {
-  margin: 90px 0 0 0;
-  right: 0;
-  padding: 0;
-  z-index: 0;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute; }
-
-#foto5 {
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-  position: absolute; }
-
-#foto6 {
-  margin: 150px 0 0 0;
-  right: 0;
-  padding: 0;
-  z-index: 1;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute; }
-
-#foto7 {
-  margin: 0;
-  padding: 0;
-  border: #fff solid 5px;
-  z-index: 1;
-  position: absolute; }
-
-#foto8 {
-  margin: 150px 0 0 0;
-  right: 0;
-  padding: 0;
-  z-index: 0;
-  float: right;
-  position: absolute; }
-
-#foto9 {
-  margin: 0;
-  padding: 0;
-  z-index: 0;
-  position: absolute; }
-
-#foto10 {
-  margin: 150px 0 0 0;
-  right: 0;
-  padding: 0;
-  z-index: 1;
-  float: right;
-  border: #fff solid 5px;
-  position: absolute; }
-
+/* ==========================================================================
+Entitats Socials
+========================================================================== */
 /* ==========================================================================
 Contacte
 ========================================================================== */
