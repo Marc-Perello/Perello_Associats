@@ -194,6 +194,25 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  opacity: 0.1;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999; }
+
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -231,11 +250,20 @@ body {
 .full-width {
   width: 100%; }
 
+.contenidor-centre {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  .contenidor-centre::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 .contenidor-esquerra {
   float: left;
   display: block;
-  margin-right: 0.1547101135%;
-  width: 49.9226449433%;
+  margin-right: 0.1925683544%;
+  width: 49.9037158228%;
   padding-top: 60px;
   padding-bottom: 50px;
   min-height: 660px;
@@ -247,8 +275,8 @@ body {
 .contenidor-dreta {
   float: left;
   display: block;
-  margin-right: 0.1547101135%;
-  width: 49.9226449433%;
+  margin-right: 0.1925683544%;
+  width: 49.9037158228%;
   padding-top: 60px;
   padding-bottom: 60px;
   min-height: 660px;
@@ -426,7 +454,8 @@ nav ul li a:hover {
   margin-right: auto;
   margin: -50px auto auto auto;
   background-color: white;
-  border: 1px solid #f2f2f2; }
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
   #particulars::after {
     clear: both;
     content: "";
@@ -486,8 +515,8 @@ h5 {
   border: 1px solid #f5f5f5;
   float: left;
   display: block;
-  margin-right: 0.3098996731%;
-  width: 91.6408416939%; }
+  margin-right: 0.3858797911%;
+  width: 91.6345100174%; }
   .serveis:last-child {
     margin-right: 0; }
 
@@ -524,8 +553,8 @@ li:last-child {
       max-height: 420px;
       float: left;
       display: block;
-      margin-right: 0.3098996731%;
-      width: 83.2816833878%; }
+      margin-right: 0.3858797911%;
+      width: 83.2690200348%; }
       .marc-forma-1:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
@@ -533,8 +562,8 @@ li:last-child {
       max-height: 530px;
       float: left;
       display: block;
-      margin-right: 0.3098996731%;
-      width: 83.2816833878%; }
+      margin-right: 0.3858797911%;
+      width: 83.2690200348%; }
       .marc-forma-1:last-child {
         margin-right: 0; } }
 
@@ -554,8 +583,8 @@ li:last-child {
     .marc-foto-1 {
       float: left;
       display: block;
-      margin-right: 0.3098996731%;
-      width: 66.5633667756%; }
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%; }
       .marc-foto-1:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
@@ -563,8 +592,8 @@ li:last-child {
       height: 545px;
       float: left;
       display: block;
-      margin-right: 0.3098996731%;
-      width: 66.5633667756%; }
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%; }
       .marc-foto-1:last-child {
         margin-right: 0; } }
 
@@ -587,14 +616,15 @@ li:last-child {
   margin-right: auto;
   margin: -1px auto auto auto;
   background-color: white;
-  border: 1px solid #f2f2f2; }
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
   #autonoms::after {
     clear: both;
     content: "";
     display: table; }
 
 .esquerra {
-  margin-left: 8.3591583061%; }
+  margin-left: 8.3654899826%; }
 
 #autonoms .stroke-titol {
   width: 390px;
@@ -636,19 +666,36 @@ PIMES i Startups
   margin-right: auto;
   margin: -1px auto auto auto;
   background-color: white;
-  border: 1px solid #f2f2f2; }
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
   #pimes::after {
     clear: both;
     content: "";
     display: table; }
 
-.marc-foto-4 {
-  width: 340px;
+.bloc {
+  width: 33.33%;
+  float: left;
   height: 260px;
-  margin-top: 60px;
-  background-color: red;
-  border: 1px white solid;
-  float: left; }
+  background-color: green;
+  z-index: 9;
+  margin: 60px auto;
+  padding: 0 10px 0 10px; }
+
+.image4 {
+  z-index: 99; }
+  @media screen and (min-width: 64em) {
+    .image4 {
+      background-image: url(../img/autonoms1_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image4 {
+      background-image: url(../img/autonoms1_L_@2x.jpg);
+      background-size: 100%; } }
+
+#pimes .stroke-titol {
+  width: 290px;
+  margin: 4px auto;
+  border-bottom: 2px solid #f5f5f5; }
 
 #pimes h2 {
   text-align: center;
