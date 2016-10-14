@@ -194,25 +194,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.1;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: 9999; }
-
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -250,23 +231,12 @@ body {
 .full-width {
   width: 100%; }
 
-.contenidor-centre {
-  width: 100%;
-  margin: 0;
-  padding: 0; }
-  .contenidor-centre::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 .contenidor-esquerra {
   float: left;
   display: block;
   margin-right: 0.1925683544%;
   width: 49.9037158228%;
-  padding-top: 60px;
-  padding-bottom: 50px;
-  min-height: 660px;
+  min-height: 600px;
   background-color: white;
   position: relative; }
   .contenidor-esquerra:last-child {
@@ -277,12 +247,14 @@ body {
   display: block;
   margin-right: 0.1925683544%;
   width: 49.9037158228%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  min-height: 660px;
+  min-height: 600px;
   background-color: white; }
   .contenidor-dreta:last-child {
     margin-right: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
 
 /* ==========================================================================
    Menu Principal
@@ -399,36 +371,6 @@ nav ul li a:hover {
   border-radius: 2px;
   margin: 40px auto 0 auto; }
 
-/* Sweep To Right de blanc a blau*/
-.hvr-sweep-to-right {
-  display: block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  transition: color .3s; }
-
-.hvr-sweep-to-right:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #2951a7;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  transition: transform .3s ease-out; }
-
-.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-  color: white; }
-
-.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
-  transform: scaleX(1); }
-
 .hero {
   background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;
   height: 90vh;
@@ -460,6 +402,10 @@ nav ul li a:hover {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 64em) {
+    #particulars {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
 
 h2 {
   font-family: 'Source Serif Pro', serif;
@@ -516,7 +462,7 @@ h5 {
   float: left;
   display: block;
   margin-right: 0.3858797911%;
-  width: 91.6345100174%; }
+  width: 83.2690200348%; }
   .serveis:last-child {
     margin-right: 0; }
 
@@ -527,9 +473,7 @@ h5 {
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-bottom: 15px;
+  padding: 19px 15px;
   border-bottom: 1px solid #f5f5f5; }
 
 .blue-dash {
@@ -574,11 +518,7 @@ li:last-child {
 .marc-foto-1 {
   width: 190px;
   height: 365px;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  position: absolute; }
   @media screen and (min-width: 48em) {
     .marc-foto-1 {
       float: left;
@@ -589,11 +529,12 @@ li:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
     .marc-foto-1 {
-      height: 545px;
+      height: 610px;
       float: left;
       display: block;
       margin-right: 0.3858797911%;
-      width: 66.5380400696%; }
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%; }
       .marc-foto-1:last-child {
         margin-right: 0; } }
 
@@ -622,24 +563,61 @@ li:last-child {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 64em) {
+    #autonoms {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
 
 .esquerra {
-  margin-left: 8.3654899826%; }
+  float: left;
+  display: block;
+  margin-right: 0.3858797911%;
+  width: 83.2690200348%;
+  margin-left: 16.7309799652%; }
+  .esquerra:last-child {
+    margin-right: 0; }
 
 #autonoms .stroke-titol {
   width: 390px;
   margin-top: 4px;
   border-bottom: 2px solid #f5f5f5; }
 
+#autonoms .serveis {
+  float: left;
+  display: block;
+  margin-right: 0.3858797911%;
+  width: 83.2690200348%;
+  margin-left: 16.7309799652%; }
+  #autonoms .serveis:last-child {
+    margin-right: 0; }
+
 .marc-foto-2 {
-  width: 427px;
-  height: 270px;
   background-color: #2951a7; }
   @media screen and (min-width: 64em) {
     .marc-foto-2 {
-      width: 427px;
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%;
+      height: 270px; }
+      .marc-foto-2:last-child {
+        margin-right: 0; } }
+
+.marc-foto-3 {
+  height: 270px;
+  background-color: #2951a7; }
+  @media screen and (min-width: 64em) {
+    .marc-foto-3 {
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%;
       height: 270px;
-      margin: 100px auto; } }
+      margin-top: 70px; }
+      .marc-foto-3:last-child {
+        margin-right: 0; } }
 
 .forma2 {
   width: 520px;
@@ -672,42 +650,105 @@ PIMES i Startups
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 64em) {
+    #pimes {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+.top-fotos {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto; }
+  .top-fotos::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .top-fotos::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.contenidor-centre {
+  float: left;
+  display: block;
+  margin-right: 0.1925683544%;
+  width: 83.3012386076%;
+  margin-left: 8.3493806962%;
+  z-index: 999;
+  position: relative; }
+  .contenidor-centre:last-child {
+    margin-right: 0; }
 
 .bloc {
-  width: 33.33%;
   float: left;
-  height: 260px;
-  background-color: green;
-  z-index: 9;
-  margin: 60px auto;
-  padding: 0 10px 0 10px; }
+  display: block;
+  margin-right: 0.7747491827%;
+  width: 32.8168338782%;
+  height: 258px;
+  background-color: yellow; }
+  .bloc:last-child {
+    margin-right: 0; }
 
-.image4 {
-  z-index: 99; }
-  @media screen and (min-width: 64em) {
-    .image4 {
-      background-image: url(../img/autonoms1_L.jpg); } }
+.rectangle-gris {
+  float: left;
+  display: block;
+  margin-right: 0.1925683544%;
+  width: 91.6506193038%;
+  margin-left: 4.1746903481%;
+  height: 160px;
+  background-color: #f7f7f7;
+  z-index: 1;
+  margin-top: -210px; }
+  .rectangle-gris:last-child {
+    margin-right: 0; }
+
+@media screen and (min-width: 64em) {
+  .image4 {
+    background-image: url(../img/pimes1_L.jpg); } }
   @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
     .image4 {
-      background-image: url(../img/autonoms1_L_@2x.jpg);
+      background-image: url(../img/pimes1_L_@2x.jpg);
       background-size: 100%; } }
+
+@media screen and (min-width: 64em) {
+  .image5 {
+    background-image: url(../img/pimes2_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image5 {
+      background-image: url(../img/pimes2_L_@2x.jpg);
+      background-size: 100%; } }
+
+@media screen and (min-width: 64em) {
+  .image6 {
+    background-image: url(../img/pimes3_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image6 {
+      background-image: url(../img/pimes3_L_@2x.jpg);
+      background-size: 100%; } }
+
+#pimes h5 {
+  text-align: center;
+  margin-top: 40px; }
+
+#pimes h2 {
+  text-align: center;
+  margin: 0 auto; }
 
 #pimes .stroke-titol {
   width: 290px;
   margin: 4px auto;
   border-bottom: 2px solid #f5f5f5; }
 
-#pimes h2 {
-  text-align: center;
-  margin: 0 auto; }
-
 #pimes h3 {
   text-align: center;
   margin: 0 auto; }
 
-#pimes h5 {
-  text-align: center;
-  margin-top: 45px; }
+.serveis1 {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #f5f5f5;
+  margin-left: 8.3493806962%; }
 
 /* ==========================================================================
 Gran Empresa
@@ -717,6 +758,26 @@ Entitats Socials
 ========================================================================== */
 /* ==========================================================================
 Contacte
+========================================================================== */
+#contacte {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
+  #contacte::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 64em) {
+    #contacte {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+/* ==========================================================================
+Contacte no
 ========================================================================== */
 .mapa {
   width: 50%;
@@ -735,6 +796,11 @@ Contacte
 /* ==========================================================================
  Footer
 ========================================================================== */
+footer {
+  background-color: #2f3542;
+  margin-top: -20px;
+  z-index: 1; }
+
 .stroke-blau {
   color: #5474b9;
   width: 210px;
@@ -751,15 +817,6 @@ copyright {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   display: block; }
-
-#contacte {
-  background-color: #2951a7; }
-
-.info {
-  color: #ffffff; }
-
-footer {
-  background-color: #2f3542; }
 
 /* ==========================================================================
  Clearfix
