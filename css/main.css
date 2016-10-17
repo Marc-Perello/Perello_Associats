@@ -194,6 +194,25 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  opacity: 0.1;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999; }
+
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -753,9 +772,106 @@ PIMES i Startups
 /* ==========================================================================
 Gran Empresa
 ========================================================================== */
+#gran-empresa {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
+  #gran-empresa::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 64em) {
+    #gran-empresa {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+.marc-foto-4 {
+  background-color: #2951a7; }
+  @media screen and (min-width: 64em) {
+    .marc-foto-4 {
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%;
+      height: 260px; }
+      .marc-foto-4:last-child {
+        margin-right: 0; } }
+
+.marc-foto-5 {
+  background-color: #2951a7; }
+  @media screen and (min-width: 64em) {
+    .marc-foto-5 {
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%;
+      height: 260px;
+      margin-top: 35px; }
+      .marc-foto-5:last-child {
+        margin-right: 0; } }
+
+#gran-empresa .stroke-titol {
+  width: 410px;
+  margin-top: 4px;
+  border-bottom: 2px solid #f5f5f5; }
+
 /* ==========================================================================
 Entitats Socials
 ========================================================================== */
+#entitats-socials {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box; }
+  #entitats-socials::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 64em) {
+    #entitats-socials {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+
+#entitats-socials .stroke-titol {
+  width: 270px;
+  margin-top: 4px;
+  border-bottom: 2px solid #f5f5f5; }
+
+#entitats-socials .serveis {
+  float: left;
+  display: block;
+  margin-right: 0.3858797911%;
+  width: 83.2690200348%;
+  margin-left: 16.7309799652%; }
+  #entitats-socials .serveis:last-child {
+    margin-right: 0; }
+
+#entitats-socials .marc-foto-2 {
+  z-index: 99;
+  position: relative; }
+
+.rectangle-gris-vertical {
+  float: left;
+  display: block;
+  margin-right: 0.3858797911%;
+  width: 24.7105901567%;
+  margin-left: 37.6447049217%;
+  height: 630px;
+  background-color: #f7f7f7;
+  z-index: 1;
+  position: relative; }
+  .rectangle-gris-vertical:last-child {
+    margin-right: 0; }
+
 /* ==========================================================================
 Contacte
 ========================================================================== */

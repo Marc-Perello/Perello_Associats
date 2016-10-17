@@ -332,7 +332,6 @@ li:last-child{
   @include span-columns(5 of 6);
   @include shift(1);
 }
-
 //Contenidors fotos
 .marc-foto-2{ 
   background-color: #2951a7;
@@ -363,8 +362,6 @@ li:last-child{
                 }
     // 
 }
-
-
 
 //FORMA
 .forma2{
@@ -453,8 +450,6 @@ PIMES i Startups
   z-index: 1; 
   margin-top: -210px;
 }
-
-
 .image4{
   // // MOBILE
   // background-image: url(../img/img1_S.jpg); 
@@ -571,10 +566,94 @@ PIMES i Startups
 /* ==========================================================================
 Gran Empresa
 ========================================================================== */
-
+#gran-empresa{
+  @include outer-container;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+ // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+          padding-top: 100px;
+          padding-bottom: 100px;
+                }
+    // 
+}
+.marc-foto-4{ 
+  background-color: #2951a7;
+  // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+          @include span-columns(4 of 6);
+          @include shift(1);
+          height: 260px;
+                }
+    // 
+}
+.marc-foto-5{ 
+  background-color: #2951a7;
+  // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+          @include span-columns(4 of 6);
+          @include shift(1);
+          height: 260px;
+          margin-top: 35px;
+                }
+    // 
+}
+#gran-empresa .stroke-titol{
+  width: 410px;
+  margin-top: 4px;
+    border-bottom: 2px solid #f5f5f5;
+} 
 /* ==========================================================================
 Entitats Socials
 ========================================================================== */
+#entitats-socials{
+  @include outer-container;
+  margin: -1px auto auto auto;
+  background-color: white;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+ // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+          padding-top: 100px;
+          padding-bottom: 100px;
+                }
+    // 
+}
+#entitats-socials .stroke-titol{
+  width: 270px;
+  margin-top: 4px;
+    border-bottom: 2px solid #f5f5f5;
+} 
+#entitats-socials .serveis{
+  @include span-columns(5 of 6);
+  @include shift(1);
+}
+#entitats-socials .marc-foto-2{
+  z-index: 99;
+  position: relative;
+}
+.rectangle-gris-vertical{
+  @include span-columns(1.5 of 6);
+  @include shift(2.25);
+  height: 630px;
+  background-color:#f7f7f7;
+  z-index: 1;
+  position: relative;
+}
 
 /* ==========================================================================
 Contacte
