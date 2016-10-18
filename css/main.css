@@ -255,7 +255,7 @@ body {
   display: block;
   margin-right: 0.1925683544%;
   width: 49.9037158228%;
-  min-height: 600px;
+  min-height: 550px;
   background-color: white;
   position: relative; }
   .contenidor-esquerra:last-child {
@@ -266,7 +266,7 @@ body {
   display: block;
   margin-right: 0.1925683544%;
   width: 49.9037158228%;
-  min-height: 600px;
+  min-height: 550px;
   background-color: white; }
   .contenidor-dreta:last-child {
     margin-right: 0; }
@@ -287,6 +287,7 @@ ul {
 
 .logo img {
   height: 50px;
+  margin-left: 20px;
   float: left; }
 
 #lletres-logo {
@@ -328,6 +329,9 @@ nav ul li a:hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none; }
+
+#entitats_socials_link {
+  margin-right: 20px; }
 
 .top-bar {
   margin: 0;
@@ -535,6 +539,7 @@ li:last-child {
   background: #fafafa; }
 
 .marc-foto-1 {
+  margin-top: 25px;
   width: 190px;
   height: 365px;
   position: absolute; }
@@ -548,7 +553,7 @@ li:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
     .marc-foto-1 {
-      height: 610px;
+      height: 570px;
       float: left;
       display: block;
       margin-right: 0.3858797911%;
@@ -652,7 +657,17 @@ li:last-child {
   @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
     .image2 {
       background-image: url(../img/autonoms1_L_@2x.jpg);
-      background-size: 100%; } }
+      background-size: cover; } }
+
+.image3 {
+  z-index: 99; }
+  @media screen and (min-width: 64em) {
+    .image3 {
+      background-image: url(../img/autonoms2_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image3 {
+      background-image: url(../img/autonoms2_L_@2x.jpg);
+      background-size: cover; } }
 
 /* ==========================================================================
 PIMES i Startups
@@ -762,12 +777,29 @@ PIMES i Startups
   text-align: center;
   margin: 0 auto; }
 
-.serveis1 {
-  margin-top: 20px;
-  padding: 0;
-  list-style-type: none;
-  border: 1px solid #f5f5f5;
-  margin-left: 8.3493806962%; }
+#pimes .contenidor-esquerra {
+  float: left;
+  display: block;
+  margin-right: 0.1925683544%;
+  width: 49.9037158228%;
+  min-height: 400px;
+  background-color: white;
+  position: relative; }
+  #pimes .contenidor-esquerra:last-child {
+    margin-right: 0; }
+
+#pimes .contenidor-dreta {
+  float: left;
+  display: block;
+  margin-right: 0.1925683544%;
+  width: 49.9037158228%;
+  min-height: 400px;
+  background-color: white; }
+  #pimes .contenidor-dreta:last-child {
+    margin-right: 0; }
+
+#pimes .serveis {
+  margin-top: 40px; }
 
 /* ==========================================================================
 Gran Empresa
@@ -815,6 +847,22 @@ Gran Empresa
       margin-top: 35px; }
       .marc-foto-5:last-child {
         margin-right: 0; } }
+
+@media screen and (min-width: 64em) {
+  .image7 {
+    background-image: url(../img/empresa_1_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image7 {
+      background-image: url(../img/empresa_1_L_@2x.jpg);
+      background-size: cover; } }
+
+@media screen and (min-width: 64em) {
+  .image8 {
+    background-image: url(../img/empresa_2_L.jpg); } }
+  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    .image8 {
+      background-image: url(../img/empresa_2_L_@2x.jpg);
+      background-size: cover; } }
 
 #gran-empresa .stroke-titol {
   width: 410px;
@@ -882,7 +930,8 @@ Contacte
   margin: -1px auto auto auto;
   background-color: white;
   border: 1px solid #f2f2f2;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  z-index: 9; }
   #contacte::after {
     clear: both;
     content: "";
@@ -892,22 +941,131 @@ Contacte
       padding-top: 100px;
       padding-bottom: 100px; } }
 
-/* ==========================================================================
-Contacte no
-========================================================================== */
-.mapa {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  float: left;
-  display: block; }
+.tf {
+  color: #2951a7;
+  text-decoration: none; }
 
-.form {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
+#contacte h2 {
+  line-height: 1; }
+
+h6 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px; }
+
+.bold {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.formulari {
   float: left;
-  display: block; }
+  display: block;
+  margin-right: 0.1925683544%;
+  width: 83.3012386076%;
+  margin-left: 8.3493806962%;
+  margin-top: 30px;
+  border: 1px solid #f2f2f2;
+  background-color: white; }
+  .formulari:last-child {
+    margin-right: 0; }
+
+.camps-formulari {
+  float: left;
+  display: block;
+  margin-right: 0.2311710577%;
+  width: 59.9075315769%;
+  height: auto; }
+  .camps-formulari:last-child {
+    margin-right: 0; }
+
+.localitzacio {
+  float: left;
+  display: block;
+  margin-right: 0.2311710577%;
+  width: 39.8612973654%;
+  height: auto; }
+  .localitzacio:last-child {
+    margin-right: 0; }
+
+fieldset {
+  float: left;
+  display: block;
+  margin-right: 0.3858797911%;
+  width: 74.9035300522%;
+  margin-left: 8.3654899826%;
+  margin-top: 40px; }
+  fieldset:last-child {
+    margin-right: 0; }
+
+label {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  label::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.cell {
+  float: left;
+  display: block;
+  margin-right: 0.5151690325%;
+  width: 100%; }
+  .cell:last-child {
+    margin-right: 0; }
+  .cell::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+input {
+  float: left;
+  display: block;
+  margin-right: 0.5151690325%;
+  width: 55.3265915411%;
+  height: 58px;
+  border: 1px solid #f2f2f2;
+  margin: 10px auto 20px auto;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: inset 1px 12px 8px -7px #f5f5f5;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  input:last-child {
+    margin-right: 0; }
+
+#comments {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #f2f2f2;
+  margin: 10px auto 20px auto;
+  padding: 10px;
+  padding-top: 10px;
+  border-radius: 2px;
+  box-shadow: inset 1px 12px 8px -7px #f5f5f5;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /* ==========================================================================
  Footer
@@ -915,7 +1073,8 @@ Contacte no
 footer {
   background-color: #2f3542;
   margin-top: -20px;
-  z-index: 1; }
+  z-index: 1;
+  width: 100%; }
 
 .stroke-blau {
   color: #5474b9;
