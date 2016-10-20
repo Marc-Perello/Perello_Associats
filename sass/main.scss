@@ -705,6 +705,7 @@ Entitats Socials
 ========================================================================== */
 #entitats-socials{
   @include outer-container;
+  @include clearfix;
   margin: -1px auto auto auto;
   background-color: white;
   border: 1px solid #f2f2f2;
@@ -728,17 +729,27 @@ Entitats Socials
   @include span-columns(5 of 6);
   @include shift(1);
 }
-#entitats-socials .marc-foto-2{
-  z-index: 99;
-  position: relative;
+.marc-foto-6{ 
+  position: absolute;
+  background-color: #2951a7;
+  // Media Queries
+      @include media($m) {
+                }
+    // 
+    @include media($l) {
+          @include span-columns(4 of 6);
+          @include shift(1);
+          height: 270px;
+                }
+    // 
 }
 .rectangle-gris-vertical{
+  position: absolute;
   @include span-columns(1.5 of 6);
   @include shift(2.25);
   height: 630px;
   background-color:#f7f7f7;
   z-index: 1;
-  position: relative;
 }
 
 /* ==========================================================================

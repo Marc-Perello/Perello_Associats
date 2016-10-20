@@ -884,6 +884,10 @@ Entitats Socials
     clear: both;
     content: "";
     display: table; }
+  #entitats-socials::after {
+    clear: both;
+    content: "";
+    display: table; }
   @media screen and (min-width: 64em) {
     #entitats-socials {
       padding-top: 100px;
@@ -903,11 +907,22 @@ Entitats Socials
   #entitats-socials .serveis:last-child {
     margin-right: 0; }
 
-#entitats-socials .marc-foto-2 {
-  z-index: 99;
-  position: relative; }
+.marc-foto-6 {
+  position: absolute;
+  background-color: #2951a7; }
+  @media screen and (min-width: 64em) {
+    .marc-foto-6 {
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 66.5380400696%;
+      margin-left: 16.7309799652%;
+      height: 270px; }
+      .marc-foto-6:last-child {
+        margin-right: 0; } }
 
 .rectangle-gris-vertical {
+  position: absolute;
   float: left;
   display: block;
   margin-right: 0.3858797911%;
@@ -915,8 +930,7 @@ Entitats Socials
   margin-left: 37.6447049217%;
   height: 630px;
   background-color: #f7f7f7;
-  z-index: 1;
-  position: relative; }
+  z-index: 1; }
   .rectangle-gris-vertical:last-child {
     margin-right: 0; }
 
