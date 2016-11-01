@@ -194,25 +194,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #000 0, #000 8.1568123418%, transparent 8.1568123418%, transparent 8.3493806962%, #000 8.3493806962%, #000 16.506193038%, transparent 16.506193038%, transparent 16.6987613924%, #000 16.6987613924%, #000 24.8555737342%, transparent 24.8555737342%, transparent 25.0481420886%, #000 25.0481420886%, #000 33.2049544304%, transparent 33.2049544304%, transparent 33.3975227848%, #000 33.3975227848%, #000 41.5543351266%, transparent 41.5543351266%, transparent 41.746903481%, #000 41.746903481%, #000 49.9037158228%, transparent 49.9037158228%, transparent 50.0962841772%, #000 50.0962841772%, #000 58.253096519%, transparent 58.253096519%, transparent 58.4456648734%, #000 58.4456648734%, #000 66.6024772152%, transparent 66.6024772152%, transparent 66.7950455696%, #000 66.7950455696%, #000 74.9518579114%, transparent 74.9518579114%, transparent 75.1444262658%, #000 75.1444262658%, #000 83.3012386076%, transparent 83.3012386076%, transparent 83.493806962%, #000 83.493806962%, #000 91.6506193038%, transparent 91.6506193038%, transparent 91.8431876582%, #000 91.8431876582%, #000 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1200px;
-  opacity: 0.1;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: 9999; }
-
 /* ==========================================================================
    Perello i Associats Custom Styles
 ========================================================================== */
@@ -884,10 +865,6 @@ Entitats Socials
     clear: both;
     content: "";
     display: table; }
-  #entitats-socials::after {
-    clear: both;
-    content: "";
-    display: table; }
   @media screen and (min-width: 64em) {
     #entitats-socials {
       padding-top: 100px;
@@ -907,22 +884,11 @@ Entitats Socials
   #entitats-socials .serveis:last-child {
     margin-right: 0; }
 
-.marc-foto-6 {
-  position: absolute;
-  background-color: #2951a7; }
-  @media screen and (min-width: 64em) {
-    .marc-foto-6 {
-      float: left;
-      display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%;
-      height: 270px; }
-      .marc-foto-6:last-child {
-        margin-right: 0; } }
+#entitats-socials .marc-foto-2 {
+  z-index: 99;
+  position: relative; }
 
 .rectangle-gris-vertical {
-  position: absolute;
   float: left;
   display: block;
   margin-right: 0.3858797911%;
@@ -930,7 +896,8 @@ Entitats Socials
   margin-left: 37.6447049217%;
   height: 630px;
   background-color: #f7f7f7;
-  z-index: 1; }
+  z-index: 1;
+  position: relative; }
   .rectangle-gris-vertical:last-child {
     margin-right: 0; }
 
@@ -945,7 +912,8 @@ Contacte
   background-color: white;
   border: 1px solid #f2f2f2;
   box-sizing: border-box;
-  z-index: 9; }
+  z-index: 9;
+  display: inline-block; }
   #contacte::after {
     clear: both;
     content: "";
@@ -1011,6 +979,10 @@ h6 {
   .localitzacio:last-child {
     margin-right: 0; }
 
+.transports {
+  margin: 0;
+  padding: 0; }
+
 fieldset {
   float: left;
   display: block;
@@ -1033,6 +1005,18 @@ label {
     content: "";
     display: table; }
 
+.label2 {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .label2::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 .cell {
   float: left;
   display: block;
@@ -1045,7 +1029,7 @@ label {
     content: "";
     display: table; }
 
-input {
+.input-style {
   float: left;
   display: block;
   margin-right: 0.5151690325%;
@@ -1062,8 +1046,29 @@ input {
   color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  input:last-child {
+  .input-style:last-child {
     margin-right: 0; }
+
+.input-style-2 {
+  border: 1px solid #f2f2f2;
+  margin: 15px 10px 30px auto;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.cell a {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  color: #345db7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none; }
 
 #comments {
   width: 100%;
@@ -1081,14 +1086,104 @@ input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+#contacte ul {
+  list-style-type: none; }
+
+#contacte li {
+  margin-top: -1px;
+  width: 100%;
+  height: 90px;
+  border: 1px solid #f2f2f2;
+  border-right: none;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#contacte li:last-child {
+  border-bottom: none; }
+
+.llista_icon {
+  float: left;
+  display: block;
+  margin-right: 0.5799386196%;
+  width: 24.5650460353%; }
+  .llista_icon:last-child {
+    margin-right: 0; }
+
+.llista_icon img {
+  display: block;
+  margin: 0 auto;
+  max-height: 36px;
+  margin-top: 27px; }
+
+.llista_text_1 {
+  margin-top: 22px; }
+
+.llista_text p {
+  margin-top: 34px; }
+
 /* ==========================================================================
  Footer
 ========================================================================== */
 footer {
+  width: 100%;
+  height: auto;
   background-color: #2f3542;
-  margin-top: -20px;
-  z-index: 1;
-  width: 100%; }
+  margin-top: -50px;
+  z-index: 1; }
+
+.socialmedia {
+  float: left;
+  display: block;
+  margin-right: 0.2311710577%;
+  width: 19.8150631538%;
+  margin-top: 100px;
+  display: inline-block; }
+  .socialmedia:last-child {
+    margin-right: 0; }
+
+.socialmedia a {
+  display: inline-block;
+  padding-right: 20px; }
+
+.logo-footer {
+  float: left;
+  display: block;
+  margin-right: 0.2311710577%;
+  width: 59.9075315769%;
+  margin-top: 85px; }
+  .logo-footer:last-child {
+    margin-right: 0; }
+  .logo-footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+footer img {
+  margin: 0 auto;
+  display: block; }
+
+.idioma {
+  float: left;
+  display: block;
+  margin-right: 0.2311710577%;
+  width: 19.8150631538%;
+  margin-top: 100px; }
+  .idioma:last-child {
+    margin-right: 0; }
+
+.idioma a {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.6em;
+  color: #4b515d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  padding-left: 60px; }
 
 .stroke-blau {
   color: #5474b9;
@@ -1097,7 +1192,7 @@ footer {
   margin: 15px auto 0 auto;
   position: relative; }
 
-copyright {
+.copyright {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.4em;
@@ -1105,7 +1200,9 @@ copyright {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  display: block; }
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 40px; }
 
 /* ==========================================================================
  Clearfix
