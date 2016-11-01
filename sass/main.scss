@@ -211,6 +211,15 @@ h5{
   border: 1px solid #f5f5f5;
   @include span-columns(5 of 6); 
 }
+.serveis1{
+  margin-top: 40px;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #f5f5f5;
+  border-right: none;
+  @include span-columns(5 of 6); 
+  @include shift (1);
+}
 .llista{
   @include opensans(400, 1.6em);
   padding:19px 15px;
@@ -229,36 +238,9 @@ li:last-child{
   border-bottom: none;
 } 
 
-//Contenidors fotos
-
-//FORMA
-.marc-forma-1{
-  width: 190px;
-  height: 100%;
-  margin: auto; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-      // Media Queries 
-    @include media($m) {
-      max-height: 420px;
-      @include span-columns(5 of 6);
-    }
-    @include media($l) {
-      max-height: 530px;
-      @include span-columns(5 of 6);
-    }
-    //
-}
-.forma1{
-  border-radius: 50%;
-  background: #fafafa;
-}
-
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
 .marc-foto-1{
-  margin-top: 25px;
+  
   width: 190px;
   height: 365px;
   position: absolute;
@@ -267,7 +249,8 @@ li:last-child{
       @include span-columns(4 of 6);
     }
     @include media($l) {
-      height: 570px;
+      margin-top: 35px;
+      height: 550px;
       @include span-columns(4 of 6);
       @include shift(1);
     }
@@ -302,6 +285,25 @@ li:last-child{
         }
       }
 }
+//FORMA
+.marc-forma-1{
+  width: 485px;
+  height: 485px;
+  position: absolute;
+    // Media Queries 
+    @include media($m) {
+    }
+    @include media($l) { 
+      margin-top: 68px;
+      @include span-columns(5 of 6); 
+      @include shift(0.5);
+    }
+}
+.cercle{
+  max-width: 485px;
+  margin-left: 1%;
+}
+
 /* ==========================================================================
    Autonoms i Freelance
    ========================================================================== */
@@ -337,6 +339,8 @@ li:last-child{
 //Contenidors fotos
 .marc-foto-2{ 
   background-color: #2951a7;
+  z-index:999;
+    position: relative;
   // Media Queries
       @include media($m) {
                 }
@@ -351,7 +355,8 @@ li:last-child{
 .marc-foto-3{
   height: 270px;
   background-color: #2951a7;
-  
+  z-index:999;
+    position: relative;
   // Media Queries
       @include media($m) {
                 }
@@ -363,14 +368,6 @@ li:last-child{
           margin-top: 70px;
                 }
     // 
-}
-
-//FORMA
-.forma2{
-  width: 520px;
-  height: 520px;
-  border-radius: 50%;
-  background: #fafafa;
 }
 
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
@@ -430,7 +427,14 @@ li:last-child{
         }
       }
 }
-
+.rombo{
+  width: 480px;
+  height: 480px;
+  margin-left: 9.5%;
+  z-index:1;
+  margin-top: -625px;
+  position: relative;
+}
 /* ==========================================================================
 PIMES i Startups
 ========================================================================== */
@@ -612,6 +616,8 @@ Gran Empresa
     // 
 }
 .marc-foto-4{ 
+  z-index: 999;
+  position: relative;
   background-color: #2951a7;
   // Media Queries
       @include media($m) {
@@ -626,6 +632,8 @@ Gran Empresa
 }
 .marc-foto-5{ 
   background-color: #2951a7;
+  z-index: 999;
+  position: relative;
   // Media Queries
       @include media($m) {
                 }
@@ -634,7 +642,7 @@ Gran Empresa
           @include span-columns(4 of 6);
           @include shift(1);
           height: 260px;
-          margin-top: 35px;
+          margin-top: 20px;
                 }
     // 
 }
@@ -694,13 +702,18 @@ Gran Empresa
           background-size: cover;
         }
       }
-
 }
 #gran-empresa .stroke-titol{
   width: 410px;
   margin-top: 4px;
     border-bottom: 2px solid #f5f5f5;
 } 
+.rectangle-distorsionat{
+  margin-top: -270px;
+  left:9.5%;
+  position:relative;
+  z-index: 1;
+}
 /* ==========================================================================
 Entitats Socials
 ========================================================================== */
@@ -729,7 +742,7 @@ Entitats Socials
   @include span-columns(5 of 6);
   @include shift(1);
 }
-#entitats-socials .marc-foto-2{
+#entitats-socials .marc-foto-5{
   z-index: 99;
   position: relative;
 }
@@ -901,10 +914,11 @@ footer {
 // }
 .logo-footer{
   @include span-columns(6 of 10);
-  margin-top: 85px;
+  margin-top: 95px;
   @include clearfix;
 }
-footer img{
+.logo-footer img{
+  width: 35%;
   margin: 0 auto;
   display: block;
 }
@@ -914,7 +928,7 @@ footer img{
 }
 
 .idioma a{
- @include opensans(600, 1.6em,#4b515d);
+ @include opensans(600, 1.6em,#64666c);
  text-decoration: none;
  padding-left: 60px;
 
@@ -927,7 +941,7 @@ footer img{
   position: relative;
 }
 .copyright{
-  @include opensans(400, 1.4em,#4b515d);
+  @include opensans(400, 1.4em,#64666c);
   text-align: center;
   display: block;
   margin-top: 20px;
