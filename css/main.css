@@ -235,22 +235,56 @@ body {
   float: left;
   display: block;
   margin-right: 0.1925683544%;
-  width: 49.9037158228%;
-  min-height: 550px;
+  width: 100%;
   background-color: white;
+  min-height: 120px;
   position: relative; }
   .contenidor-esquerra:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 48em) {
+    .contenidor-esquerra {
+      min-height: 350px;
+      float: left;
+      display: block;
+      margin-right: 0.1925683544%;
+      width: 33.2049544304%; }
+      .contenidor-esquerra:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) {
+    .contenidor-esquerra {
+      float: left;
+      display: block;
+      margin-right: 0.1925683544%;
+      width: 49.9037158228%;
+      min-height: 550px; }
+      .contenidor-esquerra:last-child {
+        margin-right: 0; } }
 
 .contenidor-dreta {
   float: left;
   display: block;
   margin-right: 0.1925683544%;
-  width: 49.9037158228%;
-  min-height: 550px;
+  width: 100%;
   background-color: white; }
   .contenidor-dreta:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 48em) {
+    .contenidor-dreta {
+      float: left;
+      display: block;
+      margin-right: 0.1925683544%;
+      width: 66.6024772152%; }
+      .contenidor-dreta:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) {
+    .contenidor-dreta {
+      float: left;
+      display: block;
+      margin-right: 0.1925683544%;
+      width: 49.9037158228%;
+      position: relative; }
+      .contenidor-dreta:last-child {
+        margin-right: 0; } }
 
 ul {
   margin: 0;
@@ -293,6 +327,7 @@ nav ul li {
   display: inline-block; }
 
 nav ul li a {
+  display: none;
   font-family: 'Source Serif Pro', serif;
   font-weight: 700;
   font-size: 1.5em;
@@ -310,7 +345,9 @@ nav ul li a {
   margin-right: 20px; }
 
 nav ul li:last-child {
-  margin: 0; }
+  display: none;
+  margin: 0;
+  margin-right: 20px; }
 
 .top-bar {
   margin: 0;
@@ -350,32 +387,50 @@ nav ul li:last-child {
 .hero h1 {
   font-family: 'Source Serif Pro', serif;
   font-weight: 700;
-  font-size: 4.8em;
+  font-size: 3.6em;
   color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  padding-top: 65px; }
+  padding-top: 40px; }
+  @media screen and (min-width: 48em) {
+    .hero h1 {
+      font-family: 'Source Serif Pro', serif;
+      font-weight: 700;
+      font-size: 4.8em;
+      color: #333333;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding-top: 65px; } }
 
 .hero h3 {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  font-size: 2.4em;
-  color: #2951a7;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin: 1px 0 0 0; }
+  display: none; }
+  @media screen and (min-width: 48em) {
+    .hero h3 {
+      display: block;
+      font-family: 'Source Serif Pro', serif;
+      font-weight: 400;
+      font-size: 2.4em;
+      color: #2951a7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      margin: 1px 0 0 0;
+      padding: 0 10px; } }
 
 .stroke {
+  display: none;
   color: #f0f0f0;
   width: 210px;
   height: 1px;
   margin: 15px auto 10px auto;
   position: relative; }
+  @media screen and (min-width: 48em) {
+    .stroke {
+      display: block; } }
 
 .cta {
-  height: 50px;
+  height: 42px;
   background-color: #2951a7;
   max-width: 200px;
   border-radius: 2px;
@@ -385,8 +440,8 @@ nav ul li:last-child {
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 50px;
-  margin: 40px auto 0 auto;
+  line-height: 42px;
+  margin: 20px auto 0 auto;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -395,22 +450,44 @@ nav ul li:last-child {
   .cta:hover {
     color: #7f8db4;
     background-color: #23448d; }
+    @media screen and (min-width: 48em) {
+      .cta:hover {
+        display: block;
+        height: 50px;
+        max-width: 200px;
+        line-height: 50px;
+        margin: 40px auto 0 auto;
+        display: block;
+        width: 126px; } }
 
 .hero {
   background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;
-  height: 90vh;
-  max-height: 690px;
+  height: 600px;
+  max-height: 500px;
   padding-top: 50px; }
+  @media screen and (min-width: 48em) {
+    .hero {
+      height: 90vh;
+      max-height: 690px; } }
 
 .serveis-clients {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 40px; }
+  padding: 0 10px; }
   .serveis-clients::after {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 48em) {
+    .serveis-clients {
+      padding: 0 20px; } }
+  @media screen and (min-width: 64em) {
+    .serveis-clients {
+      padding: 0 20px; } }
+  @media screen and (min-width: 90.1em) {
+    .serveis-clients {
+      padding: 0 40px; } }
 
 /* ==========================================================================
    Particulars
@@ -419,18 +496,36 @@ nav ul li:last-child {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  margin: -50px auto auto auto;
+  margin: -180px auto auto auto;
   background-color: white;
   border: 1px solid #f2f2f2;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px; }
   #particulars::after {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (min-width: 48em) {
+    #particulars {
+      margin: -50px auto auto auto;
+      padding-top: 60px;
+      padding-bottom: 60px; } }
   @media screen and (min-width: 64em) {
+    #particulars {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  @media screen and (min-width: 90.1em) {
     #particulars {
       padding-top: 100px;
       padding-bottom: 100px; } }
+
+@media screen and (min-width: 64em) {
+  #particulars .contenidor-esquerra {
+    margin-top: 40px; } }
+@media screen and (min-width: 90.1em) {
+  #particulars .contenidor-esquerra {
+    margin-top: 30px; } }
 
 h2 {
   font-family: 'Source Serif Pro', serif;
@@ -439,19 +534,34 @@ h2 {
   color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-  text-align: left;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
+  @media screen and (min-width: 48em) {
+    h2 {
+      text-align: left; } }
 
 h3 {
   font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  font-size: 2em;
+  font-weight: 600;
+  font-size: 1.6em;
   color: #2951a7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: left;
-  margin: 14px auto; }
+  line-height: 28px;
+  text-align: center; }
+  @media screen and (min-width: 48em) {
+    h3 {
+      font-family: 'Source Serif Pro', serif;
+      font-weight: 400;
+      font-size: 2em;
+      color: #2951a7;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: left;
+      line-height: 32px; } }
+  @media screen and (min-width: 64em) {
+    h3 {
+      margin: 14px auto; } }
 
 h4 {
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -460,7 +570,6 @@ h4 {
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   text-align: left;
   margin: 0 auto; }
 
@@ -471,25 +580,63 @@ h5 {
   color: #999999;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: left;
-  margin: 0 auto; }
+  margin-top: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+  @media screen and (min-width: 48em) {
+    h5 {
+      text-align: left; } }
+  @media screen and (min-width: 64em) {
+    h5 {
+      font-family: 'Source Serif Pro', serif;
+      font-weight: 400;
+      font-size: 1.6em;
+      color: #999999;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; } }
 
 #particulars .stroke-titol {
   width: 195px;
-  margin-top: 4px;
-  border-bottom: 2px solid #f5f5f5; }
+  border-bottom: 2px solid #f5f5f5;
+  margin: 0 auto; }
+  @media screen and (min-width: 48em) {
+    #particulars .stroke-titol {
+      margin: 0px; } }
+  @media screen and (min-width: 64em) {
+    #particulars .stroke-titol {
+      margin-top: 4px; } }
 
 .serveis {
   margin-top: 20px;
   padding: 0;
   list-style-type: none;
-  border: 1px solid #f5f5f5;
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 83.2690200348%; }
+  margin-right: 0.1925683544%;
+  width: 87.4759289557%;
+  margin-left: 4.1746903481%; }
   .serveis:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 48em) {
+    .serveis {
+      float: left;
+      display: block;
+      margin-right: 0.1925683544%;
+      width: 91.6506193038%;
+      margin-left: 0%; }
+      .serveis:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 64em) {
+    .serveis {
+      border: 1px solid #f5f5f5;
+      float: left;
+      display: block;
+      margin-right: 0.3858797911%;
+      width: 83.2690200348%;
+      margin-left: 0%; }
+      .serveis:last-child {
+        margin-right: 0; } }
 
 .serveis1 {
   margin-top: 40px;
@@ -508,12 +655,24 @@ h5 {
 .llista {
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.6em;
+  font-size: 1.4em;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 19px 15px;
-  border-bottom: 1px solid #f5f5f5; }
+  border-bottom: 1px solid #f5f5f5;
+  padding: 19px 0px 19px 0; }
+  @media screen and (min-width: 48em) {
+    .llista {
+      font-family: 'Open Sans', Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 1.6em;
+      color: #0a0a0a;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 19px 15px 19px 0; } }
+  @media screen and (min-width: 64em) {
+    .llista {
+      padding: 19px 15px; } }
 
 .blue-dash {
   margin-left: 1%;
@@ -524,31 +683,44 @@ li:last-child {
   border-bottom: none; }
 
 .marc-foto-1 {
-  width: 190px;
-  height: 365px;
-  position: absolute; }
+  width: 120px;
+  height: 120px;
+  background-color: #2951a7;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  border-radius: 50%;
+  margin: 0px 0 0 -60px; }
   @media screen and (min-width: 48em) {
     .marc-foto-1 {
-      float: left;
-      display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%; }
-      .marc-foto-1:last-child {
-        margin-right: 0; } }
+      width: 170px;
+      height: 170px;
+      top: 0%;
+      left: 50%;
+      margin: 0 0 0 -85px; } }
   @media screen and (min-width: 64em) {
     .marc-foto-1 {
-      margin-top: 35px;
+      width: 380px;
       height: 550px;
-      float: left;
-      display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%; }
-      .marc-foto-1:last-child {
-        margin-right: 0; } }
+      top: 50%;
+      margin: -275px 0 0 -190px;
+      border-radius: 0; } }
 
 .image1 {
-  z-index: 99; }
+  z-index: 99;
+  background-image: url(../img/img1_S.jpg); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .image1 {
+      background-image: url(../img/particulars1_S_@2x.jpg);
+      background-size: 100%; } }
+  @media screen and (min-width: 48em) {
+    .image1 {
+      background-image: url(../img/particulars1_M.jpg); } }
+  @media only screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 48em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 48em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 48em) and (min-resolution: 192dpi), only screen and (min-width: 48em) and (min-resolution: 2dppx) {
+    .image1 {
+      background-image: url(../img/particulars1_M_@2x.jpg);
+      background-size: 100%; } }
+
   @media screen and (min-width: 64em) {
     .image1 {
       background: url(../img/particulars1_L.jpg) center top; } }
@@ -558,23 +730,24 @@ li:last-child {
       background-size: 100%; } }
 
 .marc-forma-1 {
-  width: 485px;
-  height: 485px;
-  position: absolute; }
+  display: none; }
   @media screen and (min-width: 64em) {
     .marc-forma-1 {
-      margin-top: 68px;
-      float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 83.2690200348%;
-      margin-left: 8.3654899826%; }
-      .marc-forma-1:last-child {
-        margin-right: 0; } }
+      width: 420px;
+      height: 420px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -210px 0 0 -210px; } }
+  @media screen and (min-width: 90.1em) {
+    .marc-forma-1 {
+      width: 510px;
+      height: 510px;
+      margin: -260px 0 0 -260px; } }
 
 .cercle {
-  max-width: 485px;
-  margin-left: 1%; }
+  width: 100%; }
 
 /* ==========================================================================
    Autonoms i Freelance

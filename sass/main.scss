@@ -35,15 +35,35 @@ body{
   width: 100%;
 }
 .contenidor-esquerra{
-  @include span-columns(6);
-  min-height: 550px;
+  @include span-columns(12);
   background-color: white;
+  min-height: 120px;
   position: relative;
+  // Media Queries
+      @include media($m) {
+        min-height: 350px;
+        @include span-columns(4)
+                }
+    // 
+    @include media($l) {
+        @include span-columns(6);
+        min-height: 550px;
+                }
+    // 
 }
 .contenidor-dreta{
-  @include span-columns(6);
-  min-height: 550px;
+  @include span-columns(12);
   background-color: white;
+  // Media Queries
+    @include media($m) {
+      @include span-columns(8); 
+                }
+    // 
+    @include media($l) {
+        @include span-columns(6);
+        position: relative;
+                }
+    // 
 }
 
 ul{
@@ -87,6 +107,7 @@ nav ul li{
 }
 
 nav ul li a{
+  display:none;
   @include SerifPro(700, 1.5em, #0a0a0a);
   text-decoration: none; 
   line-height: 50px;
@@ -96,12 +117,13 @@ nav ul li a{
     text-decoration: none;
   }
 }
-
 #entitats_socials_link{
   margin-right: 20px; 
 }
 nav ul li:last-child {
+    display:none;
   margin:0;
+  margin-right: 20px; 
 }
 .top-bar { 
 	margin: 0;
@@ -136,30 +158,49 @@ nav ul li:last-child {
    Hero
    ========================================================================== */
 .hero h1{
-  @include SerifPro(700, 4.8em);
+  @include SerifPro(700, 3.6em);
   text-align: center;
-  padding-top: 65px;
+  padding-top: 40px;
+  // Media Queries
+    @include media($m) {
+      @include SerifPro(700, 4.8em);
+      padding-top: 65px;
+                }
 }
 .hero h3{
-  @include SerifPro(400, 2.4em,#2951a7);
-  text-align: center;
-  margin:1px 0 0 0 ;
+  display:none;
+  // @include SerifPro(400, 1.8em,#2951a7);
+  // text-align: center;
+  // padding: 0 10px; 
+  // Media Queries
+    @include media($m) {
+      display:block;
+      @include SerifPro(400, 2.4em,#2951a7);
+      text-align: center;
+      margin:1px 0 0 0;
+      padding: 0 10px;
+                }
 }
 .stroke{
+  display:none;
   color: #f0f0f0;
   width: 210px;
   height: 1px;
   margin: 15px auto 10px auto;
   position: relative;
+  // Media Queries
+    @include media($m) {
+      display:block;
+                }
 }
 .cta{
-  height: 50px;
+  height: 42px;
   background-color: #2951a7;
   max-width: 200px;
   border-radius: 2px;
   @include opensans(600, 2em, #ffffff);
-  line-height: 50px;
-  margin: 40px auto 0 auto;
+  line-height: 42px;
+  margin: 20px auto 0 auto;
   text-align: center; 
   text-decoration: none;
   display: block;
@@ -168,70 +209,151 @@ nav ul li:last-child {
   &:hover{
     color: #7f8db4;
     background-color: #23448d;
+    // Media Queries
+    @include media($m) {
+      display:block;
+      height: 50px;
+      max-width: 200px;
+      line-height: 50px;
+      margin: 40px auto 0 auto;
+      display: block;
+      width: 126px;            
+       }
   }
 }
 .hero{
     background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;
-    height: 90vh;
-    max-height: 690px;
+    height: 600px;
+    max-height: 500px;
     padding-top: 50px;
+    // Media Queries
+      @include media($m) {
+        height: 90vh;
+        max-height: 690px;
+                  }
 }
 .serveis-clients{
   @include outer-container;
-  padding: 0 40px;
+  padding: 0 10px;
+  // Media Queries
+    @include media($m) {
+      padding: 0 20px; 
+                }
+    @include media($l) {
+      padding: 0 20px;
+                }
+     @include media($xl) {
+      padding: 0 40px;
+                }
 }
 /* ==========================================================================
    Particulars
    ========================================================================== */
 #particulars{
   @include outer-container;
-	margin: -50px auto auto auto;
+	margin: -180px auto auto auto;
   background-color: white;
   border: 1px solid #f2f2f2;
   box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
  // Media Queries
       @include media($m) {
+        margin: -50px auto auto auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
                 }
-    // 
     @include media($l) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+                }
+    @include media($xl) {
         padding-top: 100px;
         padding-bottom: 100px;
                 }
-    // 
+}
+#particulars .contenidor-esquerra{
+    @include media($l) {
+      margin-top: 40px;
+                }
+    @include media($xl) {
+      margin-top: 30px;
+                }
 }
 h2{
   @include SerifPro(700, 3.8em);
-	margin: 0;
-  text-align: left;
   margin: 0 auto;
+  text-align: center;
+  // Media Queries
+      @include media($m) {
+        text-align: left;
+                }
+    @include media($l) {
+      
+                }
 }
 h3{
-  @include SerifPro(400, 2em, #2951a7);
-  text-align: left;
-  margin:14px auto;
+  @include SerifPro(600, 1.6em, #2951a7);
+  line-height: 28px;
+  text-align: center;
+  // Media Queries
+    @include media($m) {
+      @include SerifPro(400, 2em, #2951a7);
+      text-align: left;
+      line-height: 32px;
+                }
+    @include media($l) {
+      margin:14px auto;
+                }
 }
 h4{
   @include opensans(600, 2.4em);
-  text-align: center;
+  // text-align: center;
   text-align: left;
   margin: 0 auto;
 }
 h5{
   @include SerifPro(400, 1.6em, #999999);
-  text-align: left;
-  margin: 0 auto;
+  margin-top:40px;
+  text-align: center;
+  @include no-space;
+  // Media Queries
+    @include media($m) { 
+      text-align: left;
+                }
+    @include media($l) {
+        @include SerifPro(400, 1.6em, #999999);
+        
+                }
 }
 #particulars .stroke-titol{
   width: 195px;
-  margin-top: 4px;
   border-bottom: 2px solid #f5f5f5;
+  margin: 0 auto;
+  // Media Queries
+      @include media($m) { 
+        margin: 0px;
+                }
+      @include media($l) {
+        margin-top: 4px;
+                }
 }
 .serveis{
   margin-top: 20px;
   padding: 0;
   list-style-type: none;
-  border: 1px solid #f5f5f5;
-  @include span-columns(5 of 6); 
+  @include span-columns(10.5);
+  @include shift(.5);
+  // Media Queries
+      @include media($m) { 
+        @include span-columns(11);
+        @include shift(0);
+                }
+      @include media($l) {
+        border: 1px solid #f5f5f5; 
+        @include span-columns(5 of 6);
+        @include shift(0);
+                }
 }
 .serveis1{
   margin-top: 40px;
@@ -243,9 +365,17 @@ h5{
   @include shift (1);
 }
 .llista{
-  @include opensans(400, 1.6em);
-  padding:19px 15px;
+  @include opensans(400, 1.4em);
   border-bottom: 1px solid #f5f5f5;
+  padding:19px 0px 19px 0;
+  // Media Queries
+      @include media($m) { 
+        @include opensans(400, 1.6em);
+        padding:19px 15px 19px 0;
+                }
+      @include media($l) {
+        padding:19px 15px;
+                }
 }
 .blue-dash{
   margin-left:1%;
@@ -258,68 +388,83 @@ li:last-child{
 
 //IMAGES - RESPONSIVE+RETINA IMAGE DECLARATION
 .marc-foto-1{
-  
-  width: 190px;
-  height: 365px;
+  width: 120px;
+  height: 120px;
+  background-color: #2951a7;
   position: absolute;
+  top: 0%;
+  left: 50%;
+  border-radius: 50%;
+  margin: 0px 0 0 -60px;
     // Media Queries 
     @include media($m) {
-      @include span-columns(4 of 6);
+      width:170px;
+      height:170px; 
+      top: 0%;
+      left: 50%;
+      margin: 0 0 0 -85px;
     }
     @include media($l) {
-      margin-top: 35px;
-      height: 550px;
-      @include span-columns(4 of 6);
-      @include shift(1);
+      width:380px;
+      height: 550px; 
+      top: 50%;
+      margin: -275px 0 0 -190px;
+      border-radius: 0;
     }
-    //
 }
 .image1{ 
   z-index: 99;
-  // // MOBILE
-  // background-image: url(../img/img1_S.jpg); 
-  //     // RETINA
-  //     @include hidpi(2) {
-  //       background-image: url(../img/img1_S_@2x.jpg);  
-  //       background-size: 100%;
-  //     }
-  // // TABLET
-  // @include media($m) {
-  // background-image: url(../img/img1_M.jpg);  
-  //      // RETINA
-  //       @include hidpi(2) {
-  //         background-image: url(../img/img1_M_@2x.jpg);  
-  //         background-size: 100%;
-  //       }
-  //  }
- // DESKTOP
-  @include media($l) {
-
-  background: url(../img/particulars1_L.jpg) center top;  
+  // MOBILE
+  background-image: url(../img/img1_S.jpg); 
+      // RETINA
+      @include hidpi(2) {
+        background-image: url(../img/particulars1_S_@2x.jpg);  
+        background-size: 100%;
+      }
+  // TABLET
+  @include media($m) {
+  background-image: url(../img/particulars1_M.jpg);  
        // RETINA
         @include hidpi(2) {
-          background-image: url(../img/particulars1_L_@2x.jpg);  
+          background-image: url(../img/particulars1_M_@2x.jpg);  
           background-size: 100%;
+        }
+   }
+ // DESKTOP
+  @include media($l) {
+      background: url(../img/particulars1_L.jpg) center top;  
+           // RETINA
+            @include hidpi(2) {
+              background-image: url(../img/particulars1_L_@2x.jpg);  
+              background-size: 100%;
         }
       }
 }
+
 //FORMA
 .marc-forma-1{
-  width: 485px;
-  height: 485px;
-  position: absolute;
+  display:none;
+  // width: 310px;
+  // height: 310px;
+  // margin: -160px 0 0 -160px;
     // Media Queries 
-    @include media($m) {
-    }
     @include media($l) { 
-      margin-top: 68px;
-      @include span-columns(5 of 6); 
-      @include shift(0.5);
+      display:block;
+      width: 420px;
+      height: 420px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -210px 0 0 -210px;
+    }
+    @include media($xl) { 
+      width: 510px;
+      height: 510px;
+      margin: -260px 0 0 -260px;
     }
 }
 .cercle{
-  max-width: 485px;
-  margin-left: 1%;
+  width: 100%;
 }
 
 /* ==========================================================================
