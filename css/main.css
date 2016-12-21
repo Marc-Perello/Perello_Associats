@@ -317,17 +317,41 @@ ul {
   padding: 0;
   float: left; }
 
+nav {
+  position: relative; }
+
 nav ul {
   margin: 0;
   padding: 0;
-  float: right; }
+  padding-bottom: 10px;
+  position: absolute;
+  background-color: white;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
+  @media screen and (min-width: 64em) {
+    nav ul {
+      position: relative;
+      float: right;
+      width: auto;
+      top: 0;
+      background-color: transparent;
+      box-shadow: none; } }
+
+.menu_cta {
+  padding-right: 110px; }
 
 nav ul li {
-  margin-left: 20px;
-  display: inline-block; }
+  display: block;
+  text-align: center; }
+  @media screen and (min-width: 64em) {
+    nav ul li {
+      display: inline-block;
+      margin-left: 20px;
+      text-align: left; } }
 
 nav ul li a {
-  display: none;
   font-family: 'Source Serif Pro', serif;
   font-weight: 700;
   font-size: 1.5em;
@@ -335,18 +359,30 @@ nav ul li a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
-  line-height: 50px;
-  transition: 0.3s; }
+  line-height: 50px; }
   nav ul li a:hover {
     color: #2951a7;
     text-decoration: none; }
 
-#entitats_socials_link {
-  margin-right: 20px; }
+.menu {
+  display: none; }
+  @media screen and (min-width: 64em) {
+    .menu {
+      display: block; } }
 
-nav ul li:last-child {
-  display: none;
-  margin: 0;
+.menu_icon {
+  width: 30px;
+  height: 24px;
+  background-color: green;
+  position: absolute;
+  right: 20px;
+  margin-top: 11px;
+  display: block; }
+  @media screen and (min-width: 64em) {
+    .menu_icon {
+      display: none; } }
+
+#entitats_socials_link {
   margin-right: 20px; }
 
 .top-bar {
@@ -360,26 +396,29 @@ nav ul li:last-child {
   position: fixed;
   z-index: 99999; }
 
-.cta-menu {
+.cta-contacte {
+  width: 90px;
   height: 35px;
   background-color: #2951a7;
-  border-radius: 2px;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1.5em;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 35px;
-  margin: 0 auto;
-  text-align: center;
+  border-radius: 2px;
+  margin: 6px 50px 0 0;
   text-decoration: none;
+  text-align: center;
   display: block;
-  padding: 0 10px 0 10px;
+  padding: 7px 10px 0 10px;
+  position: absolute;
+  right: 10px;
   transition: 0.3s; }
-  .cta-menu:hover {
-    color: #7f8db4;
-    background-color: #23448d; }
+  @media screen and (min-width: 64em) {
+    .cta-contacte {
+      display: none;
+      margin: 6px 10px 0 0; } }
 
 /* ==========================================================================
    Hero
@@ -447,18 +486,18 @@ nav ul li:last-child {
   display: block;
   width: 126px;
   transition: 0.3s; }
+  @media screen and (min-width: 48em) {
+    .cta {
+      display: block;
+      height: 50px;
+      max-width: 200px;
+      line-height: 50px;
+      margin: 40px auto 0 auto;
+      display: block;
+      width: 126px; } }
   .cta:hover {
     color: #7f8db4;
     background-color: #23448d; }
-    @media screen and (min-width: 48em) {
-      .cta:hover {
-        display: block;
-        height: 50px;
-        max-width: 200px;
-        line-height: 50px;
-        margin: 40px auto 0 auto;
-        display: block;
-        width: 126px; } }
 
 .hero {
   background: #fcfcfc url("../img/hero-bg-desktop.jpg") center bottom no-repeat;

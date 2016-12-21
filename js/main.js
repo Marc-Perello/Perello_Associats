@@ -37,5 +37,30 @@
       }, 2400);
     });
 
+    // Script pel boto menu responsive
+
+    $(window).on("resize", function () {
+             if ($(window).width() > 1023) {
+                 $('.menu').css('display','');
+             }
+          }).resize();
+
+          $('.menu_icon').on('click', function (e) {
+             e.preventDefault();
+             $('.menu').slideToggle('slow');
+          });
+
+     // Script pel boto contacte
+
+      $(window).scroll(function(){
+             if ($(this).scrollTop() > 250) {
+               $('.cta-contacte').show();
+               $('.menu').css("margin-right", "110px");
+             } else {
+               $('.cta-contacte').hide();
+                $('.menu').css("margin-right", "0px");
+             }
+           });
+
   });
 //
