@@ -71,7 +71,6 @@ figure {
   margin: 1em 40px; }
 
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -116,8 +115,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 input[type=search] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
@@ -215,7 +212,7 @@ body {
   .menu-container::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .container {
   max-width: 1280px;
@@ -226,7 +223,7 @@ body {
   .container::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .full-width {
   width: 100%; }
@@ -234,7 +231,7 @@ body {
 .contenidor-esquerra {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
+  margin-right: 0.1925684003%;
   width: 100%;
   background-color: white;
   min-height: 120px;
@@ -246,16 +243,16 @@ body {
       min-height: 350px;
       float: left;
       display: block;
-      margin-right: 0.1925683544%;
-      width: 33.2049544304%; }
+      margin-right: 0.1925684003%;
+      width: 33.2049543998%; }
       .contenidor-esquerra:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
     .contenidor-esquerra {
       float: left;
       display: block;
-      margin-right: 0.1925683544%;
-      width: 49.9037158228%;
+      margin-right: 0.1925684003%;
+      width: 49.9037157999%;
       min-height: 550px; }
       .contenidor-esquerra:last-child {
         margin-right: 0; } }
@@ -263,7 +260,7 @@ body {
 .contenidor-dreta {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
+  margin-right: 0.1925684003%;
   width: 100%;
   background-color: white; }
   .contenidor-dreta:last-child {
@@ -272,16 +269,16 @@ body {
     .contenidor-dreta {
       float: left;
       display: block;
-      margin-right: 0.1925683544%;
-      width: 66.6024772152%; }
+      margin-right: 0.1925684003%;
+      width: 66.6024771999%; }
       .contenidor-dreta:last-child {
         margin-right: 0; } }
   @media screen and (min-width: 64em) {
     .contenidor-dreta {
       float: left;
       display: block;
-      margin-right: 0.1925683544%;
-      width: 49.9037158228%;
+      margin-right: 0.1925684003%;
+      width: 49.9037157999%;
       position: relative; }
       .contenidor-dreta:last-child {
         margin-right: 0; } }
@@ -411,6 +408,7 @@ nav ul li a {
   padding: 7px 10px 0 10px;
   position: absolute;
   right: 10px;
+  -webkit-transition: 0.3s;
   transition: 0.3s; }
   @media screen and (min-width: 64em) {
     .cta-contacte {
@@ -482,6 +480,7 @@ nav ul li a {
   text-decoration: none;
   display: block;
   width: 126px;
+  -webkit-transition: 0.3s;
   transition: 0.3s; }
   @media screen and (min-width: 48em) {
     .cta {
@@ -510,11 +509,11 @@ nav ul li a {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 10px; }
+  padding: 0; }
   .serveis-clients::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 48em) {
     .serveis-clients {
       padding: 0 20px; } }
@@ -541,7 +540,7 @@ nav ul li a {
   #particulars::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 48em) {
     #particulars {
       margin: -50px auto auto auto;
@@ -559,6 +558,7 @@ nav ul li a {
 @media screen and (min-width: 64em) {
   #particulars .contenidor-esquerra {
     margin-top: 40px; } }
+
 @media screen and (min-width: 90.1em) {
   #particulars .contenidor-esquerra {
     margin-top: 30px; } }
@@ -649,17 +649,17 @@ h5 {
   list-style-type: none;
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 87.4759289557%;
-  margin-left: 4.1746903481%; }
+  margin-right: 0.1925684003%;
+  width: 87.47592895%;
+  margin-left: 4.17469035%; }
   .serveis:last-child {
     margin-right: 0; }
   @media screen and (min-width: 48em) {
     .serveis {
       float: left;
       display: block;
-      margin-right: 0.1925683544%;
-      width: 91.6506193038%;
+      margin-right: 0.1925684003%;
+      width: 91.6506193%;
       margin-left: 0%; }
       .serveis:last-child {
         margin-right: 0; } }
@@ -668,8 +668,8 @@ h5 {
       border: 1px solid #f5f5f5;
       float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 83.2690200348%;
+      margin-right: 0.3858798833%;
+      width: 83.2690200194%;
       margin-left: 0%; }
       .serveis:last-child {
         margin-right: 0; } }
@@ -682,9 +682,9 @@ h5 {
   border-right: none;
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 83.2690200348%;
-  margin-left: 16.7309799652%; }
+  margin-right: 0.3858798833%;
+  width: 83.2690200194%;
+  margin-left: 16.7309799806%; }
   .serveis1:last-child {
     margin-right: 0; }
 
@@ -744,26 +744,28 @@ li:last-child {
 
 .image1 {
   z-index: 99;
-  background-image: url(../img/img1_S.jpg); }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  background-image: url(../img/img1_S.jpg);
+  background-image: image-url("2.png"); }
+  @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi), (min-resolution: 1.3dppx) {
     .image1 {
-      background-image: url(../img/particulars1_S_@2x.jpg);
-      background-size: 100%; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
   @media screen and (min-width: 48em) {
     .image1 {
-      background-image: url(../img/particulars1_M.jpg); } }
-  @media only screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 48em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 48em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 48em) and (min-resolution: 192dpi), only screen and (min-width: 48em) and (min-resolution: 2dppx) {
+      background-image: url(../img/particulars1_M.jpg);
+      background-image: image-url("2.png"); } }
+  @media screen and (min-width: 48em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 48em) and (min-resolution: 124.8dpi), screen and (min-width: 48em) and (min-resolution: 1.3dppx) {
     .image1 {
-      background-image: url(../img/particulars1_M_@2x.jpg);
-      background-size: 100%; } }
-
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
   @media screen and (min-width: 64em) {
     .image1 {
-      background: url(../img/particulars1_L.jpg) center top; } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+      background: url(../img/particulars1_L.jpg) center top;
+      background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image1 {
-      background-image: url(../img/particulars1_L_@2x.jpg);
-      background-size: 100%; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 .marc-forma-1 {
   display: none; }
@@ -799,7 +801,7 @@ li:last-child {
   #autonoms::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 64em) {
     #autonoms {
       padding-top: 100px;
@@ -808,9 +810,9 @@ li:last-child {
 .esquerra {
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 83.2690200348%;
-  margin-left: 16.7309799652%; }
+  margin-right: 0.3858798833%;
+  width: 83.2690200194%;
+  margin-left: 16.7309799806%; }
   .esquerra:last-child {
     margin-right: 0; }
 
@@ -822,9 +824,9 @@ li:last-child {
 #autonoms .serveis {
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 83.2690200348%;
-  margin-left: 16.7309799652%; }
+  margin-right: 0.3858798833%;
+  width: 83.2690200194%;
+  margin-left: 16.7309799806%; }
   #autonoms .serveis:last-child {
     margin-right: 0; }
 
@@ -836,9 +838,9 @@ li:last-child {
     .marc-foto-2 {
       float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%;
+      margin-right: 0.3858798833%;
+      width: 66.5380400389%;
+      margin-left: 16.7309799806%;
       height: 270px; }
       .marc-foto-2:last-child {
         margin-right: 0; } }
@@ -852,9 +854,9 @@ li:last-child {
     .marc-foto-3 {
       float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%;
+      margin-right: 0.3858798833%;
+      width: 66.5380400389%;
+      margin-left: 16.7309799806%;
       height: 270px;
       margin-top: 70px; }
       .marc-foto-3:last-child {
@@ -864,21 +866,23 @@ li:last-child {
   z-index: 99; }
   @media screen and (min-width: 64em) {
     .image2 {
-      background-image: url(../img/autonoms1_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+      background-image: url(../img/autonoms1_L.jpg);
+      background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image2 {
-      background-image: url(../img/autonoms1_L_@2x.jpg);
-      background-size: cover; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 .image3 {
   z-index: 99; }
   @media screen and (min-width: 64em) {
     .image3 {
-      background-image: url(../img/autonoms2_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+      background-image: url(../img/autonoms2_L.jpg);
+      background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image3 {
-      background-image: url(../img/autonoms2_L_@2x.jpg);
-      background-size: cover; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 .rombo {
   width: 480px;
@@ -902,7 +906,7 @@ PIMES i Startups
   #pimes::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 64em) {
     #pimes {
       padding-top: 100px;
@@ -915,18 +919,18 @@ PIMES i Startups
   .top-fotos::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   .top-fotos::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .contenidor-centre {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 83.3012386076%;
-  margin-left: 8.3493806962%;
+  margin-right: 0.1925684003%;
+  width: 83.3012386%;
+  margin-left: 8.3493807%;
   z-index: 999;
   position: relative; }
   .contenidor-centre:last-child {
@@ -935,8 +939,8 @@ PIMES i Startups
 .bloc {
   float: left;
   display: block;
-  margin-right: 0.7747491827%;
-  width: 32.8168338782%;
+  margin-right: 0.7747493686%;
+  width: 32.8168337543%;
   height: 258px;
   background-color: yellow; }
   .bloc:last-child {
@@ -945,9 +949,9 @@ PIMES i Startups
 .rectangle-gris {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 91.6506193038%;
-  margin-left: 4.1746903481%;
+  margin-right: 0.1925684003%;
+  width: 91.6506193%;
+  margin-left: 4.17469035%;
   height: 160px;
   background-color: #f7f7f7;
   z-index: 1;
@@ -957,27 +961,30 @@ PIMES i Startups
 
 @media screen and (min-width: 64em) {
   .image4 {
-    background-image: url(../img/pimes1_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-image: url(../img/pimes1_L.jpg);
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image4 {
-      background-image: url(../img/pimes1_L_@2x.jpg);
-      background-size: 100%; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 @media screen and (min-width: 64em) {
   .image5 {
-    background-image: url(../img/pimes2_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-image: url(../img/pimes2_L.jpg);
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image5 {
-      background-image: url(../img/pimes2_L_@2x.jpg);
-      background-size: 100%; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 @media screen and (min-width: 64em) {
   .image6 {
-    background-image: url(../img/pimes3_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-image: url(../img/pimes3_L.jpg);
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image6 {
-      background-image: url(../img/pimes3_L_@2x.jpg);
-      background-size: 100%; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 #pimes h5 {
   text-align: center;
@@ -999,8 +1006,8 @@ PIMES i Startups
 #pimes .contenidor-esquerra {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 49.9037158228%;
+  margin-right: 0.1925684003%;
+  width: 49.9037157999%;
   min-height: 400px;
   background-color: white;
   position: relative; }
@@ -1010,8 +1017,8 @@ PIMES i Startups
 #pimes .contenidor-dreta {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 49.9037158228%;
+  margin-right: 0.1925684003%;
+  width: 49.9037157999%;
   min-height: 400px;
   background-color: white; }
   #pimes .contenidor-dreta:last-child {
@@ -1034,7 +1041,7 @@ Gran Empresa
   #gran-empresa::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 64em) {
     #gran-empresa {
       padding-top: 100px;
@@ -1048,9 +1055,9 @@ Gran Empresa
     .marc-foto-4 {
       float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%;
+      margin-right: 0.3858798833%;
+      width: 66.5380400389%;
+      margin-left: 16.7309799806%;
       height: 260px; }
       .marc-foto-4:last-child {
         margin-right: 0; } }
@@ -1063,9 +1070,9 @@ Gran Empresa
     .marc-foto-5 {
       float: left;
       display: block;
-      margin-right: 0.3858797911%;
-      width: 66.5380400696%;
-      margin-left: 16.7309799652%;
+      margin-right: 0.3858798833%;
+      width: 66.5380400389%;
+      margin-left: 16.7309799806%;
       height: 260px;
       margin-top: 20px; }
       .marc-foto-5:last-child {
@@ -1073,19 +1080,21 @@ Gran Empresa
 
 @media screen and (min-width: 64em) {
   .image7 {
-    background-image: url(../img/empresa_1_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-image: url(../img/empresa_1_L.jpg);
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image7 {
-      background-image: url(../img/empresa_1_L_@2x.jpg);
-      background-size: cover; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 @media screen and (min-width: 64em) {
   .image8 {
-    background-image: url(../img/empresa_2_L.jpg); } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-image: url(../img/empresa_2_L.jpg);
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image8 {
-      background-image: url(../img/empresa_2_L_@2x.jpg);
-      background-size: cover; } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 #gran-empresa .stroke-titol {
   width: 410px;
@@ -1112,7 +1121,7 @@ Entitats Socials
   #entitats-socials::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 64em) {
     #entitats-socials {
       padding-top: 100px;
@@ -1126,9 +1135,9 @@ Entitats Socials
 #entitats-socials .serveis {
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 83.2690200348%;
-  margin-left: 16.7309799652%; }
+  margin-right: 0.3858798833%;
+  width: 83.2690200194%;
+  margin-left: 16.7309799806%; }
   #entitats-socials .serveis:last-child {
     margin-right: 0; }
 
@@ -1143,7 +1152,8 @@ Entitats Socials
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
   @media screen and (min-width: 64em) {
     .marc-foto-6 {
       width: 60%;
@@ -1155,7 +1165,8 @@ Entitats Socials
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
   @media screen and (min-width: 64em) {
     .rectangle-gris-vertical {
       width: 25%;
@@ -1164,10 +1175,12 @@ Entitats Socials
 @media screen and (min-width: 64em) {
   .image9 {
     background-image: url(../img/entitatsocial_2_L.jpg);
-    background-size: cover; } }
-  @media only screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 64em) and (min--moz-device-pixel-ratio: 2), only screen and (min-width: 64em) and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-width: 64em) and (min-resolution: 192dpi), only screen and (min-width: 64em) and (min-resolution: 2dppx) {
+    background-size: cover;
+    background-image: image-url("2.png"); } }
+  @media screen and (min-width: 64em) and (-webkit-min-device-pixel-ratio: 1.3), screen and (min-width: 64em) and (min-resolution: 124.8dpi), screen and (min-width: 64em) and (min-resolution: 1.3dppx) {
     .image9 {
-      background-image: url(../img/entitatsocial_2_L_@2x.jpg); } }
+      background-image: image-url("2_x2.png");
+      background-size: image-width("2.png") image-height("2.png"); } }
 
 /* ==========================================================================
 Contacte
@@ -1185,7 +1198,7 @@ Contacte
   #contacte::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
   @media screen and (min-width: 64em) {
     #contacte {
       padding-top: 100px;
@@ -1220,9 +1233,9 @@ h6 {
 .formulari {
   float: left;
   display: block;
-  margin-right: 0.1925683544%;
-  width: 83.3012386076%;
-  margin-left: 8.3493806962%;
+  margin-right: 0.1925684003%;
+  width: 83.3012386%;
+  margin-left: 8.3493807%;
   margin-top: 30px;
   border: 1px solid #f2f2f2;
   background-color: white; }
@@ -1232,8 +1245,8 @@ h6 {
 .camps-formulari {
   float: left;
   display: block;
-  margin-right: 0.2311710577%;
-  width: 59.9075315769%;
+  margin-right: 0.2311711129%;
+  width: 59.9075315549%;
   height: auto; }
   .camps-formulari:last-child {
     margin-right: 0; }
@@ -1241,8 +1254,8 @@ h6 {
 .localitzacio {
   float: left;
   display: block;
-  margin-right: 0.2311710577%;
-  width: 39.8612973654%;
+  margin-right: 0.2311711129%;
+  width: 39.8612973323%;
   height: auto; }
   .localitzacio:last-child {
     margin-right: 0; }
@@ -1254,9 +1267,9 @@ h6 {
 fieldset {
   float: left;
   display: block;
-  margin-right: 0.3858797911%;
-  width: 74.9035300522%;
-  margin-left: 8.3654899826%;
+  margin-right: 0.3858798833%;
+  width: 74.9035300292%;
+  margin-left: 8.3654899903%;
   margin-top: 40px; }
   fieldset:last-child {
     margin-right: 0; }
@@ -1276,7 +1289,7 @@ label {
   label::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .label2 {
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -1288,25 +1301,25 @@ label {
   .label2::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .cell {
   float: left;
   display: block;
-  margin-right: 0.5151690325%;
+  margin-right: 0.5151691558%;
   width: 100%; }
   .cell:last-child {
     margin-right: 0; }
   .cell::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .input-style {
   float: left;
   display: block;
-  margin-right: 0.5151690325%;
-  width: 55.3265915411%;
+  margin-right: 0.5151691558%;
+  width: 55.3265914863%;
   height: 58px;
   border: 1px solid #f2f2f2;
   margin: 10px auto 20px auto;
@@ -1380,8 +1393,8 @@ label {
 .llista_icon {
   float: left;
   display: block;
-  margin-right: 0.5799386196%;
-  width: 24.5650460353%; }
+  margin-right: 0.5799387585%;
+  width: 24.5650459311%; }
   .llista_icon:last-child {
     margin-right: 0; }
 
@@ -1410,8 +1423,8 @@ footer {
 .socialmedia {
   float: left;
   display: block;
-  margin-right: 0.2311710577%;
-  width: 19.8150631538%;
+  margin-right: 0.2311711129%;
+  width: 19.8150631097%;
   margin-top: 100px;
   display: inline-block; }
   .socialmedia:last-child {
@@ -1424,15 +1437,15 @@ footer {
 .logo-footer {
   float: left;
   display: block;
-  margin-right: 0.2311710577%;
-  width: 59.9075315769%;
+  margin-right: 0.2311711129%;
+  width: 59.9075315549%;
   margin-top: 95px; }
   .logo-footer:last-child {
     margin-right: 0; }
   .logo-footer::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .logo-footer img {
   width: 35%;
@@ -1442,8 +1455,8 @@ footer {
 .idioma {
   float: left;
   display: block;
-  margin-right: 0.2311710577%;
-  width: 19.8150631538%;
+  margin-right: 0.2311711129%;
+  width: 19.8150631097%;
   margin-top: 100px; }
   .idioma:last-child {
     margin-right: 0; }
